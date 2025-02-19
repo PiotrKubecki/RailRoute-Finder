@@ -2,6 +2,7 @@ import overpy
 from geopy.geocoders import Nominatim
 import math
 
+
 class StationManager:
     def __init__(self, db_manager):
         self.db_manager = db_manager
@@ -11,7 +12,7 @@ class StationManager:
             INSERT INTO stations (name, latitude, longitude)
             VALUES (?, ?, ?)
         '''
-        self.db_manager.execute_command(command, (name, float(lat), float(lon)))  # Konwersja lat i lon na float
+        self.db_manager.execute_command(command, (name, float(lat), float(lon)))
 
     def fetch_and_store_stations(self, area):
         api = overpy.Overpass()
@@ -40,27 +41,33 @@ class StationManager:
         print("Nie udało się uzyskać współrzędnych dla podanego adresu.")
         return None
 
-    def calculate_distance_from_current_location(self, lat1, lon1, lat2, lon2):
-        earth_radium_km = 6371
+    def calculate_distance(self, lat1, lon1, lat2, lon2):
+        earth_radius_km = 6371
         dlat = math.radians(lat2 - lat1)
         dlon = math.radians(lon2 - lon1)
-        havernise_formula = math.sin(dlat / 2) ** 2 + math.cos(math.radians(lat1)) * math.cos(math.radians(lat2)) * math.sin(dlon / 2) ** 2
-        central_angle = 2 * math.atan2(math.sqrt(havernise_formula), math.sqrt(1 - havernise_formula))
-        return earth_radium_km * central_angle
+        haversine_formula = math.sin(dlat / 2) ** 2 + math.cos(math.radians(lat1)) * math.cos(
+            math.radians(lat2)) * math.sin(dlon / 2) ** 2
+        central_angle = 2 * math.atan2(math.sqrt(haversine_formula), math.sqrt(1 - haversine_formula))
+        return earth_radius_km * central_angle
 
-    def find_nearest_stations(self, lat, lng, num_stations=5):
+    def find_nearest_stations(self, lat, lon, num_stations=5):
         query = "SELECT name, latitude, longitude FROM stations"
         all_stations = self.db_manager.execute_query(query)
-        city_stations = {}
+        distances = [
+            (station[0], station[1], station[2], self.calculate_distance(lat, lon, station[1], station[2]))
+            for station in all_stations
+        ]
 
-        for station in all_stations:
-            station_lat = station[1]
-            station_lon = station[2]
-            dist = round(self.calculate_distance_from_current_location(lat, lng, station_lat, station_lon), 2)
+        # Sortowanie stacji według odległości
+        distances.sort(key=lambda x: x[3])
+
+        # Filtracja najbliższych stacji z różnych miast
+        nearest_stations = {}
+        for station in distances:
             city = station[0].split()[0]
-            if city not in city_stations or dist < city_stations[city][3]:
-                city_stations[city] = (station[0], station_lat, station_lon, dist)
+            if city not in nearest_stations:
+                nearest_stations[city] = station
+            if len(nearest_stations) >= num_stations:
+                break
 
-        stations = list(city_stations.values())
-        stations.sort(key=lambda x: x[3])
-        return stations[:num_stations]
+        return list(nearest_stations.values())[:num_stations]

@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5b36f54-2b42-4bb6-b31c-298975e43246" name="Changes" comment="Managing code into classes">
+    <list default="true" id="c5b36f54-2b42-4bb6-b31c-298975e43246" name="Changes" comment="Added logic for finding destination location stations">
+      <change afterPath="$PROJECT_DIR$/RealRouteFinder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClosestStations.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClosestStations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainStationDatabaseCreation.py" beforeDir="false" afterPath="$PROJECT_DIR$/TrainStationDatabaseCreation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stations.db" beforeDir="false" afterPath="$PROJECT_DIR$/stations.db" afterDir="false" />
     </list>
@@ -68,6 +70,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.ClosestStations.executor": "Run",
+    "Python.RealRouteFinder.executor": "Run",
+    "Python.TrainStationDatabaseCreation.executor": "Run",
     "Python.location.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -117,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739884689064</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added logic for finding destination location stations">
+      <option name="closed" value="true" />
+      <created>1739953355146</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739953355146</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,6 +154,7 @@
     <MESSAGE value="Added database for all stations information and algorithm to find nearest stations to a certain location" />
     <MESSAGE value="deleted file" />
     <MESSAGE value="Managing code into classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Managing code into classes" />
+    <MESSAGE value="Added logic for finding destination location stations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added logic for finding destination location stations" />
   </component>
 </project>

@@ -9,16 +9,13 @@ class StationDatabaseManager:
         conn = sqlite3.connect(self.db_name)
         cursor = conn.cursor()
         cursor.execute('''
-            DROP TABLE IF EXISTS stations
+            CREATE TABLE IF NOT EXISTS stations (
+            id INTEGER PRIMARY KEY,
+            name TEXT,
+            latitude REAL,
+            longitude REAL);
         ''')
-        cursor.execute('''
-            CREATE TABLE stations (
-                id INTEGER PRIMARY KEY,
-                name TEXT,
-                latitude REAL,
-                longitude REAL
-            )
-        ''')
+
         conn.commit()
         conn.close()
 
