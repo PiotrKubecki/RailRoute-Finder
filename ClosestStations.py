@@ -40,26 +40,27 @@ class StationManager:
         print("Nie udało się uzyskać współrzędnych dla podanego adresu.")
         return None
 
-    def distance(self, lat1, lon1, lat2, lon2):
-        r = 6371  # Promień Ziemi w kilometrach
+    def calculate_distance_from_current_location(self, lat1, lon1, lat2, lon2):
+        earth_radium_km = 6371
         dlat = math.radians(lat2 - lat1)
         dlon = math.radians(lon2 - lon1)
-        a = math.sin(dlat / 2) ** 2 + math.cos(math.radians(lat1)) * math.cos(math.radians(lat2)) * math.sin(dlon / 2) ** 2
-        c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
-        return r * c
+        havernise_formula = math.sin(dlat / 2) ** 2 + math.cos(math.radians(lat1)) * math.cos(math.radians(lat2)) * math.sin(dlon / 2) ** 2
+        central_angle = 2 * math.atan2(math.sqrt(havernise_formula), math.sqrt(1 - havernise_formula))
+        return earth_radium_km * central_angle
 
     def find_nearest_stations(self, lat, lng, num_stations=5):
         query = "SELECT name, latitude, longitude FROM stations"
         all_stations = self.db_manager.execute_query(query)
         city_stations = {}
+
         for station in all_stations:
             station_lat = station[1]
             station_lon = station[2]
-            dist = self.distance(lat, lng, station_lat, station_lon)
-            city = station[0].split()[0]  # Podstawowe rozwiązanie do filtrowania na podstawie nazwy stacji
+            dist = round(self.calculate_distance_from_current_location(lat, lng, station_lat, station_lon), 2)
+            city = station[0].split()[0]
             if city not in city_stations or dist < city_stations[city][3]:
                 city_stations[city] = (station[0], station_lat, station_lon, dist)
-        # Pobierz najbliższą stację z każdego miasta
+
         stations = list(city_stations.values())
-        stations.sort(key=lambda x: x[3])  # Sortowanie według odległości
+        stations.sort(key=lambda x: x[3])
         return stations[:num_stations]
