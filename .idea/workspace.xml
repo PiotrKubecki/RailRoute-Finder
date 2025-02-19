@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5b36f54-2b42-4bb6-b31c-298975e43246" name="Changes" comment="Added database for all stations information and algorithm to find nearest stations to a certain location">
+    <list default="true" id="c5b36f54-2b42-4bb6-b31c-298975e43246" name="Changes" comment="Added class for finding train routes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,24 +27,35 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {}
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
+  <component name="GitHubPullRequestState"><![CDATA[{
+  "prStates": [
+    {
+      "id": {
+        "id": "PR_kwDON7egk86Llsjk",
+        "number": 1
+      },
+      "lastSeen": 1739883742296
+    }
+  ]
 }]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/PiotrKubecki/RailRoute-Finder",
-    "accountId": "d031ce18-958b-4e0b-87b6-51c0ff40ac02"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/PiotrKubecki/RailRoute-Finder&quot;,
+    &quot;accountId&quot;: &quot;d031ce18-958b-4e0b-87b6-51c0ff40ac02&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/.venv/config.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2tChSkhPfIJNzQVxwnHYGBBJJfs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -53,6 +64,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.ClosestStations.executor": "Run",
+    "Python.RealRouteFinder.executor": "Run",
+    "Python.TrainStationDatabaseCreation.executor": "Run",
     "Python.location.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -94,7 +108,31 @@
       <option name="project" value="LOCAL" />
       <updated>1739878856764</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Managing code into classes">
+      <option name="closed" value="true" />
+      <created>1739884689064</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739884689064</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added logic for finding destination location stations">
+      <option name="closed" value="true" />
+      <created>1739953355146</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739953355146</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added class for finding train routes">
+      <option name="closed" value="true" />
+      <created>1739975078670</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739975078670</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +155,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added database for all stations information and algorithm to find nearest stations to a certain location" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added database for all stations information and algorithm to find nearest stations to a certain location" />
+    <MESSAGE value="deleted file" />
+    <MESSAGE value="Managing code into classes" />
+    <MESSAGE value="Added logic for finding destination location stations" />
+    <MESSAGE value="Added class for finding train routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added class for finding train routes" />
   </component>
 </project>
