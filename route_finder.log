@@ -1,0 +1,1050 @@
+2025-02-21 12:27:54,369 [INFO] Starting the route finding process.
+2025-02-21 12:27:54,392 [INFO] ====== WebDriver manager ======
+2025-02-21 12:28:03,051 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-21 12:28:03,249 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-21 12:28:03,378 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-21 12:28:06,277 [INFO] Stations already fetched and stored.
+2025-02-21 12:28:14,230 [ERROR] Wyst?pi? nieoczekiwany b??d: Message: element click intercepted: Element is not clickable at point (995, 650)
+  (Session info: chrome=133.0.6943.60)
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x008204A3]
+	(No symbol) [0x0086E5D0]
+	(No symbol) [0x0086C984]
+	(No symbol) [0x0086A517]
+	(No symbol) [0x008697D4]
+	(No symbol) [0x0085DE55]
+	(No symbol) [0x0088CF3C]
+	(No symbol) [0x0085D8E4]
+	(No symbol) [0x0088D1B4]
+	(No symbol) [0x008AE6E1]
+	(No symbol) [0x0088CD36]
+	(No symbol) [0x0085BD29]
+	(No symbol) [0x0085D064]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x009514A8]
+	(No symbol) [0x00951647]
+	(No symbol) [0x00943D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 12:28:33,581 [ERROR] Wyst?pi? nieoczekiwany b??d: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=133.0.6943.60)
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x008204A3]
+	(No symbol) [0x0080FDE0]
+	(No symbol) [0x0082D8B2]
+	(No symbol) [0x00893D3F]
+	(No symbol) [0x008ADFC9]
+	(No symbol) [0x0088CD36]
+	(No symbol) [0x0085BD29]
+	(No symbol) [0x0085D064]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x009514A8]
+	(No symbol) [0x00951647]
+	(No symbol) [0x00943D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 12:28:34,304 [ERROR] Wyst?pi? nieoczekiwany b??d: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x00820300]
+	(No symbol) [0x0085B1B8]
+	(No symbol) [0x0088CDF6]
+	(No symbol) [0x008887E5]
+	(No symbol) [0x00887D66]
+	(No symbol) [0x007F3245]
+	(No symbol) [0x007F379E]
+	(No symbol) [0x007F3C1D]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x007F2F10]
+	(No symbol) [0x007F2AD6]
+	GetHandleVerifier [0x00D56E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 12:28:34,306 [ERROR] Wyst?pi? nieoczekiwany b??d: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x00820300]
+	(No symbol) [0x0085B1B8]
+	(No symbol) [0x0088CDF6]
+	(No symbol) [0x008887E5]
+	(No symbol) [0x00887D66]
+	(No symbol) [0x007F3245]
+	(No symbol) [0x007F379E]
+	(No symbol) [0x007F3C1D]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x007F2F10]
+	(No symbol) [0x007F2AD6]
+	GetHandleVerifier [0x00D56E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 12:28:34,308 [ERROR] Wyst?pi? nieoczekiwany b??d: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x00820300]
+	(No symbol) [0x0085B1B8]
+	(No symbol) [0x0088CDF6]
+	(No symbol) [0x008887E5]
+	(No symbol) [0x00887D66]
+	(No symbol) [0x007F3245]
+	(No symbol) [0x007F379E]
+	(No symbol) [0x007F3C1D]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x007F2F10]
+	(No symbol) [0x007F2AD6]
+	GetHandleVerifier [0x00D56E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 12:28:34,311 [ERROR] Wyst?pi? nieoczekiwany b??d: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x00820300]
+	(No symbol) [0x0085B1B8]
+	(No symbol) [0x0088CDF6]
+	(No symbol) [0x008887E5]
+	(No symbol) [0x00887D66]
+	(No symbol) [0x007F3245]
+	(No symbol) [0x007F379E]
+	(No symbol) [0x007F3C1D]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x007F2F10]
+	(No symbol) [0x007F2AD6]
+	GetHandleVerifier [0x00D56E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 12:28:34,314 [ERROR] Wyst?pi? nieoczekiwany b??d: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x00820300]
+	(No symbol) [0x0085B1B8]
+	(No symbol) [0x0088CDF6]
+	(No symbol) [0x008887E5]
+	(No symbol) [0x00887D66]
+	(No symbol) [0x007F3245]
+	(No symbol) [0x007F379E]
+	(No symbol) [0x007F3C1D]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x007F2F10]
+	(No symbol) [0x007F2AD6]
+	GetHandleVerifier [0x00D56E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 12:28:34,316 [ERROR] Wyst?pi? nieoczekiwany b??d: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x00820300]
+	(No symbol) [0x0085B1B8]
+	(No symbol) [0x0088CDF6]
+	(No symbol) [0x008887E5]
+	(No symbol) [0x00887D66]
+	(No symbol) [0x007F3245]
+	(No symbol) [0x007F379E]
+	(No symbol) [0x007F3C1D]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x007F2F10]
+	(No symbol) [0x007F2AD6]
+	GetHandleVerifier [0x00D56E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 12:28:34,318 [ERROR] Wyst?pi? nieoczekiwany b??d: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x00820300]
+	(No symbol) [0x0085B1B8]
+	(No symbol) [0x0088CDF6]
+	(No symbol) [0x008887E5]
+	(No symbol) [0x00887D66]
+	(No symbol) [0x007F3245]
+	(No symbol) [0x007F379E]
+	(No symbol) [0x007F3C1D]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x007F2F10]
+	(No symbol) [0x007F2AD6]
+	GetHandleVerifier [0x00D56E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 12:28:37,537 [INFO] Route finding process completed.
+2025-02-21 12:32:53,135 [INFO] Starting the route finding process.
+2025-02-21 12:32:53,138 [INFO] ====== WebDriver manager ======
+2025-02-21 12:33:01,848 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-21 12:33:01,993 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-21 12:33:02,111 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-21 12:33:04,466 [INFO] Stations already fetched and stored.
+2025-02-21 12:33:11,167 [INFO] Cookies accepted.
+2025-02-21 12:33:12,881 [ERROR] An unexpected error occurred: Message: element click intercepted: Element is not clickable at point (995, 650)
+  (Session info: chrome=133.0.6943.60)
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x008204A3]
+	(No symbol) [0x0086E5D0]
+	(No symbol) [0x0086C984]
+	(No symbol) [0x0086A517]
+	(No symbol) [0x008697D4]
+	(No symbol) [0x0085DE55]
+	(No symbol) [0x0088CF3C]
+	(No symbol) [0x0085D8E4]
+	(No symbol) [0x0088D1B4]
+	(No symbol) [0x008AE6E1]
+	(No symbol) [0x0088CD36]
+	(No symbol) [0x0085BD29]
+	(No symbol) [0x0085D064]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x009514A8]
+	(No symbol) [0x00951647]
+	(No symbol) [0x00943D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 12:33:38,682 [INFO] Starting the route finding process.
+2025-02-21 12:33:38,688 [INFO] ====== WebDriver manager ======
+2025-02-21 12:33:49,861 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-21 12:33:49,974 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-21 12:33:50,119 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-21 12:33:53,174 [INFO] Stations already fetched and stored.
+2025-02-21 12:33:59,609 [INFO] Cookies accepted.
+2025-02-21 12:34:01,206 [ERROR] An unexpected error occurred: Message: element click intercepted: Element is not clickable at point (995, 650)
+  (Session info: chrome=133.0.6943.60)
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x008204A3]
+	(No symbol) [0x0086E5D0]
+	(No symbol) [0x0086C984]
+	(No symbol) [0x0086A517]
+	(No symbol) [0x008697D4]
+	(No symbol) [0x0085DE55]
+	(No symbol) [0x0088CF3C]
+	(No symbol) [0x0085D8E4]
+	(No symbol) [0x0088D1B4]
+	(No symbol) [0x008AE6E1]
+	(No symbol) [0x0088CD36]
+	(No symbol) [0x0085BD29]
+	(No symbol) [0x0085D064]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x009514A8]
+	(No symbol) [0x00951647]
+	(No symbol) [0x00943D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 12:42:17,369 [INFO] Starting the route finding process.
+2025-02-21 12:42:17,372 [INFO] ====== WebDriver manager ======
+2025-02-21 12:42:27,785 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-21 12:42:28,157 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-21 12:42:28,286 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-21 12:42:31,455 [INFO] Stations already fetched and stored.
+2025-02-21 12:42:37,612 [INFO] Cookies accepted.
+2025-02-21 12:42:43,309 [ERROR] Autocomplete suggestions not found for station: Chorzów Stary, error: Message: 
+
+2025-02-21 12:42:43,309 [ERROR] Failed to select start station: Chorzów Stary
+2025-02-21 12:43:03,241 [WARNING] Cookies acceptance button not found or already accepted.
+2025-02-21 12:43:08,561 [ERROR] Autocomplete suggestions not found for station: Chorzów Stary, error: Message: 
+
+2025-02-21 12:43:08,562 [ERROR] Failed to select start station: Chorzów Stary
+2025-02-21 12:43:27,956 [WARNING] Cookies acceptance button not found or already accepted.
+2025-02-21 12:43:33,388 [ERROR] Autocomplete suggestions not found for station: Chorzów Stary, error: Message: 
+
+2025-02-21 12:43:33,389 [ERROR] Failed to select start station: Chorzów Stary
+2025-02-21 12:56:41,587 [INFO] Starting the route finding process.
+2025-02-21 12:56:41,590 [INFO] ====== WebDriver manager ======
+2025-02-21 12:56:51,028 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-21 12:56:51,273 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-21 12:56:51,372 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-21 12:56:54,481 [INFO] Stations already fetched and stored.
+2025-02-21 12:57:01,108 [INFO] Cookies accepted.
+2025-02-21 12:57:01,480 [ERROR] Failed to select start station: Chorzów Stary
+2025-02-21 12:57:20,849 [WARNING] Cookies acceptance button not found or already accepted.
+2025-02-21 12:57:21,022 [ERROR] Failed to select start station: Chorzów Stary
+2025-02-21 12:57:33,269 [ERROR] An unexpected error occurred: Message: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=133.0.6943.60)
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x00820300]
+	(No symbol) [0x00810E30]
+	(No symbol) [0x0080FF91]
+	(No symbol) [0x0082D8B2]
+	(No symbol) [0x00893D3F]
+	(No symbol) [0x008ADFC9]
+	(No symbol) [0x0088CD36]
+	(No symbol) [0x0085BD29]
+	(No symbol) [0x0085D064]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x009514A8]
+	(No symbol) [0x00951647]
+	(No symbol) [0x00943D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 12:57:33,625 [ERROR] An unexpected error occurred: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=133.0.6943.60)
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x008204A3]
+	(No symbol) [0x0080FDE0]
+	(No symbol) [0x0082D8B2]
+	(No symbol) [0x00893D3F]
+	(No symbol) [0x008ADFC9]
+	(No symbol) [0x0088CD36]
+	(No symbol) [0x0085BD29]
+	(No symbol) [0x0085D064]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x009514A8]
+	(No symbol) [0x00951647]
+	(No symbol) [0x00943D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 12:57:33,934 [ERROR] An unexpected error occurred: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x00820300]
+	(No symbol) [0x0085B1B8]
+	(No symbol) [0x0088CDF6]
+	(No symbol) [0x008887E5]
+	(No symbol) [0x00887D66]
+	(No symbol) [0x007F3245]
+	(No symbol) [0x007F379E]
+	(No symbol) [0x007F3C1D]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x007F2F10]
+	(No symbol) [0x007F2AD6]
+	GetHandleVerifier [0x00D56E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 12:57:33,935 [ERROR] An unexpected error occurred: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x00820300]
+	(No symbol) [0x0085B1B8]
+	(No symbol) [0x0088CDF6]
+	(No symbol) [0x008887E5]
+	(No symbol) [0x00887D66]
+	(No symbol) [0x007F3245]
+	(No symbol) [0x007F379E]
+	(No symbol) [0x007F3C1D]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x007F2F10]
+	(No symbol) [0x007F2AD6]
+	GetHandleVerifier [0x00D56E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 12:57:33,937 [ERROR] An unexpected error occurred: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x00820300]
+	(No symbol) [0x0085B1B8]
+	(No symbol) [0x0088CDF6]
+	(No symbol) [0x008887E5]
+	(No symbol) [0x00887D66]
+	(No symbol) [0x007F3245]
+	(No symbol) [0x007F379E]
+	(No symbol) [0x007F3C1D]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x007F2F10]
+	(No symbol) [0x007F2AD6]
+	GetHandleVerifier [0x00D56E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 12:57:33,939 [ERROR] An unexpected error occurred: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x00820300]
+	(No symbol) [0x0085B1B8]
+	(No symbol) [0x0088CDF6]
+	(No symbol) [0x008887E5]
+	(No symbol) [0x00887D66]
+	(No symbol) [0x007F3245]
+	(No symbol) [0x007F379E]
+	(No symbol) [0x007F3C1D]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x007F2F10]
+	(No symbol) [0x007F2AD6]
+	GetHandleVerifier [0x00D56E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 12:57:33,941 [ERROR] An unexpected error occurred: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x00820300]
+	(No symbol) [0x0085B1B8]
+	(No symbol) [0x0088CDF6]
+	(No symbol) [0x008887E5]
+	(No symbol) [0x00887D66]
+	(No symbol) [0x007F3245]
+	(No symbol) [0x007F379E]
+	(No symbol) [0x007F3C1D]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x007F2F10]
+	(No symbol) [0x007F2AD6]
+	GetHandleVerifier [0x00D56E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 12:59:06,764 [INFO] Starting the route finding process.
+2025-02-21 12:59:06,767 [INFO] ====== WebDriver manager ======
+2025-02-21 12:59:16,469 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-21 12:59:16,601 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-21 12:59:16,732 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-21 12:59:19,686 [INFO] Stations already fetched and stored.
+2025-02-21 12:59:25,954 [INFO] Cookies accepted.
+2025-02-21 12:59:27,283 [ERROR] An unexpected error occurred: Message: element click intercepted: Element is not clickable at point (995, 650)
+  (Session info: chrome=133.0.6943.60)
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x008204A3]
+	(No symbol) [0x0086E5D0]
+	(No symbol) [0x0086C984]
+	(No symbol) [0x0086A517]
+	(No symbol) [0x008697D4]
+	(No symbol) [0x0085DE55]
+	(No symbol) [0x0088CF3C]
+	(No symbol) [0x0085D8E4]
+	(No symbol) [0x0088D1B4]
+	(No symbol) [0x008AE6E1]
+	(No symbol) [0x0088CD36]
+	(No symbol) [0x0085BD29]
+	(No symbol) [0x0085D064]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x009514A8]
+	(No symbol) [0x00951647]
+	(No symbol) [0x00943D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 12:59:41,906 [ERROR] An unexpected error occurred: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=133.0.6943.60)
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x008204A3]
+	(No symbol) [0x0080FDE0]
+	(No symbol) [0x0082D8B2]
+	(No symbol) [0x00893D3F]
+	(No symbol) [0x008ADFC9]
+	(No symbol) [0x0088CD36]
+	(No symbol) [0x0085BD29]
+	(No symbol) [0x0085D064]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x009514A8]
+	(No symbol) [0x00951647]
+	(No symbol) [0x00943D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 12:59:43,905 [ERROR] An unexpected error occurred: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x00820300]
+	(No symbol) [0x0085B1B8]
+	(No symbol) [0x0088CDF6]
+	(No symbol) [0x008887E5]
+	(No symbol) [0x00887D66]
+	(No symbol) [0x007F3245]
+	(No symbol) [0x007F379E]
+	(No symbol) [0x007F3C1D]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x007F2F10]
+	(No symbol) [0x007F2AD6]
+	GetHandleVerifier [0x00D56E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 12:59:43,906 [ERROR] An unexpected error occurred: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x00820300]
+	(No symbol) [0x0085B1B8]
+	(No symbol) [0x0088CDF6]
+	(No symbol) [0x008887E5]
+	(No symbol) [0x00887D66]
+	(No symbol) [0x007F3245]
+	(No symbol) [0x007F379E]
+	(No symbol) [0x007F3C1D]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x007F2F10]
+	(No symbol) [0x007F2AD6]
+	GetHandleVerifier [0x00D56E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 12:59:43,908 [ERROR] An unexpected error occurred: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x00820300]
+	(No symbol) [0x0085B1B8]
+	(No symbol) [0x0088CDF6]
+	(No symbol) [0x008887E5]
+	(No symbol) [0x00887D66]
+	(No symbol) [0x007F3245]
+	(No symbol) [0x007F379E]
+	(No symbol) [0x007F3C1D]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x007F2F10]
+	(No symbol) [0x007F2AD6]
+	GetHandleVerifier [0x00D56E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 12:59:43,909 [ERROR] An unexpected error occurred: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x00820300]
+	(No symbol) [0x0085B1B8]
+	(No symbol) [0x0088CDF6]
+	(No symbol) [0x008887E5]
+	(No symbol) [0x00887D66]
+	(No symbol) [0x007F3245]
+	(No symbol) [0x007F379E]
+	(No symbol) [0x007F3C1D]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x007F2F10]
+	(No symbol) [0x007F2AD6]
+	GetHandleVerifier [0x00D56E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 12:59:43,910 [ERROR] An unexpected error occurred: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x00820300]
+	(No symbol) [0x0085B1B8]
+	(No symbol) [0x0088CDF6]
+	(No symbol) [0x008887E5]
+	(No symbol) [0x00887D66]
+	(No symbol) [0x007F3245]
+	(No symbol) [0x007F379E]
+	(No symbol) [0x007F3C1D]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x007F2F10]
+	(No symbol) [0x007F2AD6]
+	GetHandleVerifier [0x00D56E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 12:59:43,912 [ERROR] An unexpected error occurred: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x00820300]
+	(No symbol) [0x0085B1B8]
+	(No symbol) [0x0088CDF6]
+	(No symbol) [0x008887E5]
+	(No symbol) [0x00887D66]
+	(No symbol) [0x007F3245]
+	(No symbol) [0x007F379E]
+	(No symbol) [0x007F3C1D]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x007F2F10]
+	(No symbol) [0x007F2AD6]
+	GetHandleVerifier [0x00D56E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 12:59:43,913 [ERROR] An unexpected error occurred: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x00820300]
+	(No symbol) [0x0085B1B8]
+	(No symbol) [0x0088CDF6]
+	(No symbol) [0x008887E5]
+	(No symbol) [0x00887D66]
+	(No symbol) [0x007F3245]
+	(No symbol) [0x007F379E]
+	(No symbol) [0x007F3C1D]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x007F2F10]
+	(No symbol) [0x007F2AD6]
+	GetHandleVerifier [0x00D56E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 12:59:45,973 [INFO] Route finding process completed.
+2025-02-21 13:01:26,612 [INFO] Starting the route finding process.
+2025-02-21 13:01:26,615 [INFO] ====== WebDriver manager ======
+2025-02-21 13:01:35,292 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-21 13:01:35,445 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-21 13:01:35,545 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-21 13:01:38,385 [INFO] Stations already fetched and stored.
+2025-02-21 13:01:39,557 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=Jagie%C5%82%C5%82y+31b%2F10%2C+Siemianowice+%C5%9Al%C4%85skie%2C+Polska&format=json&limit=1
+2025-02-21 13:01:40,644 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=Jagie%C5%82%C5%82y+31b%2F10%2C+Siemianowice+%C5%9Al%C4%85skie%2C+Polska&format=json&limit=1
+2025-02-21 13:10:29,966 [INFO] Starting the route finding process.
+2025-02-21 13:10:29,969 [INFO] ====== WebDriver manager ======
+2025-02-21 13:10:39,396 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-21 13:10:39,546 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-21 13:10:39,683 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-21 13:10:42,585 [INFO] Stations already fetched and stored.
+2025-02-21 13:10:48,595 [INFO] Cookies accepted.
+2025-02-21 13:10:48,964 [ERROR] Failed to select start station: Chorzów Stary
+2025-02-21 13:11:08,255 [WARNING] Cookies acceptance button not found or already accepted.
+2025-02-21 13:11:08,436 [ERROR] Failed to select start station: Chorzów Stary
+2025-02-21 13:11:27,883 [WARNING] Cookies acceptance button not found or already accepted.
+2025-02-21 13:11:28,006 [ERROR] Failed to select start station: Chorzów Stary
+2025-02-21 13:11:47,193 [WARNING] Cookies acceptance button not found or already accepted.
+2025-02-21 13:11:47,318 [ERROR] Failed to select start station: Katowice
+2025-02-21 13:12:08,373 [ERROR] An unexpected error occurred: ('Connection aborted.', ConnectionResetError(10054, 'Istniej¹ce po³¹czenie zosta³o gwa³townie zamkniête przez zdalnego hosta', None, 10054, None))
+2025-02-21 13:12:12,442 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000203C240FED0>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/4f0b23d0de99b20713918e98f328f79e/url
+2025-02-21 13:12:16,521 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000203C2508A50>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/4f0b23d0de99b20713918e98f328f79e/url
+2025-02-21 13:12:20,583 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000203C24EC2B0>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/4f0b23d0de99b20713918e98f328f79e/url
+2025-02-21 13:12:24,652 [ERROR] An unexpected error occurred: HTTPConnectionPool(host='localhost', port=55411): Max retries exceeded with url: /session/4f0b23d0de99b20713918e98f328f79e/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000203C24EC510>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia'))
+2025-02-21 13:12:28,718 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000203C2457770>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/4f0b23d0de99b20713918e98f328f79e/url
+2025-02-21 13:12:32,789 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000203C24AA690>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/4f0b23d0de99b20713918e98f328f79e/url
+2025-02-21 13:12:36,855 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000203C24AA8B0>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/4f0b23d0de99b20713918e98f328f79e/url
+2025-02-21 13:12:40,955 [ERROR] An unexpected error occurred: HTTPConnectionPool(host='localhost', port=55411): Max retries exceeded with url: /session/4f0b23d0de99b20713918e98f328f79e/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000203C24AAAD0>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia'))
+2025-02-21 13:12:45,069 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000203C24AAE00>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/4f0b23d0de99b20713918e98f328f79e/url
+2025-02-21 13:12:49,160 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000203C24AB020>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/4f0b23d0de99b20713918e98f328f79e/url
+2025-02-21 13:12:53,273 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000203C24AB240>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/4f0b23d0de99b20713918e98f328f79e/url
+2025-02-21 13:12:57,384 [ERROR] An unexpected error occurred: HTTPConnectionPool(host='localhost', port=55411): Max retries exceeded with url: /session/4f0b23d0de99b20713918e98f328f79e/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000203C24AB460>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia'))
+2025-02-21 13:13:01,451 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000203C24AB790>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/4f0b23d0de99b20713918e98f328f79e/url
+2025-02-21 13:13:05,530 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000203C24AB9B0>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/4f0b23d0de99b20713918e98f328f79e/url
+2025-02-21 13:13:09,588 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000203C24ABBD0>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/4f0b23d0de99b20713918e98f328f79e/url
+2025-02-21 13:13:13,676 [ERROR] An unexpected error occurred: HTTPConnectionPool(host='localhost', port=55411): Max retries exceeded with url: /session/4f0b23d0de99b20713918e98f328f79e/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000203C24ABDF0>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia'))
+2025-02-21 13:13:17,757 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000203C274C160>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/4f0b23d0de99b20713918e98f328f79e
+2025-02-21 13:13:21,885 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000203C274C380>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/4f0b23d0de99b20713918e98f328f79e
+2025-02-21 13:13:25,974 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000203C274C5A0>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/4f0b23d0de99b20713918e98f328f79e
+2025-02-21 13:13:34,240 [INFO] Route finding process completed.
+2025-02-21 15:13:53,202 [INFO] Starting the route finding process.
+2025-02-21 15:13:53,223 [INFO] ====== WebDriver manager ======
+2025-02-21 15:14:07,051 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-21 15:14:07,416 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-21 15:14:07,555 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-21 15:14:10,312 [INFO] Stations already fetched and stored.
+2025-02-21 15:14:11,775 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=Jagie%C5%82%C5%82y+31b%2F10%2C+Siemianowice+%C5%9Al%C4%85skie%2C+Polska&format=json&limit=1
+2025-02-21 15:14:38,934 [INFO] Cookies accepted.
+2025-02-21 15:14:42,305 [INFO] Anchor closed successfully.
+2025-02-21 15:14:48,243 [ERROR] Failed to find or select station: Chorzów Stary, error: Message: 
+
+2025-02-21 15:14:48,244 [ERROR] Failed to select start station: Chorzów Stary
+2025-02-21 15:15:04,550 [WARNING] Cookies acceptance button not found or already accepted.
+2025-02-21 15:15:04,678 [INFO] Anchor closed successfully.
+2025-02-21 15:15:10,087 [ERROR] Failed to find or select station: Chorzów Stary, error: Message: 
+
+2025-02-21 15:15:10,088 [ERROR] Failed to select start station: Chorzów Stary
+2025-02-21 15:15:29,348 [WARNING] Cookies acceptance button not found or already accepted.
+2025-02-21 15:15:29,468 [INFO] Anchor closed successfully.
+2025-02-21 15:15:35,049 [ERROR] Failed to find or select station: Chorzów Stary, error: Message: 
+
+2025-02-21 15:15:35,050 [ERROR] Failed to select start station: Chorzów Stary
+2025-02-21 15:15:46,550 [WARNING] Cookies acceptance button not found or already accepted.
+2025-02-21 15:15:47,783 [ERROR] An unexpected error occurred: Message: element click intercepted: Element <span class="anchor_close" onclick="
+                            var body = document.body,
+                                html = document.documentElement,
+                                anchor = document.getElementById('yb_anchor_wrapper'),
+                                height = Math.max( body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight );
+                                anchor.style.position = 'absolute';
+                                anchor.style.top = height + 'px';
+                                anchor.style.bottom = '';
+                                this.style.display = 'none';
+
+                        ">...</span> is not clickable at point (995, 628). Other element would receive the click: <a class="qc-cmp2-persistent-link" id="qc-cmp2-persistent-link" data-nosnippet="" tabindex="0" href="#">...</a>
+  (Session info: chrome=133.0.6943.60)
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x008204A3]
+	(No symbol) [0x0086E5D0]
+	(No symbol) [0x0086C984]
+	(No symbol) [0x0086A517]
+	(No symbol) [0x008697D4]
+	(No symbol) [0x0085DE55]
+	(No symbol) [0x0088CF3C]
+	(No symbol) [0x0085D8E4]
+	(No symbol) [0x0088D1B4]
+	(No symbol) [0x008AE6E1]
+	(No symbol) [0x0088CD36]
+	(No symbol) [0x0085BD29]
+	(No symbol) [0x0085D064]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x009514A8]
+	(No symbol) [0x00951647]
+	(No symbol) [0x00943D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 15:15:58,913 [WARNING] Cookies acceptance button not found or already accepted.
+2025-02-21 15:16:00,117 [ERROR] An unexpected error occurred: Message: element click intercepted: Element <span class="anchor_close" onclick="
+                            var body = document.body,
+                                html = document.documentElement,
+                                anchor = document.getElementById('yb_anchor_wrapper'),
+                                height = Math.max( body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight );
+                                anchor.style.position = 'absolute';
+                                anchor.style.top = height + 'px';
+                                anchor.style.bottom = '';
+                                this.style.display = 'none';
+
+                        ">...</span> is not clickable at point (995, 628). Other element would receive the click: <a class="qc-cmp2-persistent-link" id="qc-cmp2-persistent-link" data-nosnippet="" tabindex="0" href="#">...</a>
+  (Session info: chrome=133.0.6943.60)
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x008204A3]
+	(No symbol) [0x0086E5D0]
+	(No symbol) [0x0086C984]
+	(No symbol) [0x0086A517]
+	(No symbol) [0x008697D4]
+	(No symbol) [0x0085DE55]
+	(No symbol) [0x0088CF3C]
+	(No symbol) [0x0085D8E4]
+	(No symbol) [0x0088D1B4]
+	(No symbol) [0x008AE6E1]
+	(No symbol) [0x0088CD36]
+	(No symbol) [0x0085BD29]
+	(No symbol) [0x0085D064]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x009514A8]
+	(No symbol) [0x00951647]
+	(No symbol) [0x00943D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 15:16:11,018 [WARNING] Cookies acceptance button not found or already accepted.
+2025-02-21 15:16:12,226 [ERROR] An unexpected error occurred: Message: element click intercepted: Element <span class="anchor_close" onclick="
+                            var body = document.body,
+                                html = document.documentElement,
+                                anchor = document.getElementById('yb_anchor_wrapper'),
+                                height = Math.max( body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight );
+                                anchor.style.position = 'absolute';
+                                anchor.style.top = height + 'px';
+                                anchor.style.bottom = '';
+                                this.style.display = 'none';
+
+                        ">...</span> is not clickable at point (995, 628). Other element would receive the click: <a class="qc-cmp2-persistent-link" id="qc-cmp2-persistent-link" data-nosnippet="" tabindex="0" href="#">...</a>
+  (Session info: chrome=133.0.6943.60)
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x008204A3]
+	(No symbol) [0x0086E5D0]
+	(No symbol) [0x0086C984]
+	(No symbol) [0x0086A517]
+	(No symbol) [0x008697D4]
+	(No symbol) [0x0085DE55]
+	(No symbol) [0x0088CF3C]
+	(No symbol) [0x0085D8E4]
+	(No symbol) [0x0088D1B4]
+	(No symbol) [0x008AE6E1]
+	(No symbol) [0x0088CD36]
+	(No symbol) [0x0085BD29]
+	(No symbol) [0x0085D064]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x009514A8]
+	(No symbol) [0x00951647]
+	(No symbol) [0x00943D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 15:16:23,522 [WARNING] Cookies acceptance button not found or already accepted.
+2025-02-21 15:16:24,667 [ERROR] An unexpected error occurred: Message: element click intercepted: Element <span class="anchor_close" onclick="
+                            var body = document.body,
+                                html = document.documentElement,
+                                anchor = document.getElementById('yb_anchor_wrapper'),
+                                height = Math.max( body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight );
+                                anchor.style.position = 'absolute';
+                                anchor.style.top = height + 'px';
+                                anchor.style.bottom = '';
+                                this.style.display = 'none';
+
+                        ">...</span> is not clickable at point (995, 628). Other element would receive the click: <a class="qc-cmp2-persistent-link" id="qc-cmp2-persistent-link" data-nosnippet="" tabindex="0" href="#">...</a>
+  (Session info: chrome=133.0.6943.60)
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x008204A3]
+	(No symbol) [0x0086E5D0]
+	(No symbol) [0x0086C984]
+	(No symbol) [0x0086A517]
+	(No symbol) [0x008697D4]
+	(No symbol) [0x0085DE55]
+	(No symbol) [0x0088CF3C]
+	(No symbol) [0x0085D8E4]
+	(No symbol) [0x0088D1B4]
+	(No symbol) [0x008AE6E1]
+	(No symbol) [0x0088CD36]
+	(No symbol) [0x0085BD29]
+	(No symbol) [0x0085D064]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x009514A8]
+	(No symbol) [0x00951647]
+	(No symbol) [0x00943D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 15:16:36,484 [WARNING] Cookies acceptance button not found or already accepted.
+2025-02-21 15:16:37,577 [ERROR] An unexpected error occurred: Message: element click intercepted: Element <span class="anchor_close" onclick="
+                            var body = document.body,
+                                html = document.documentElement,
+                                anchor = document.getElementById('yb_anchor_wrapper'),
+                                height = Math.max( body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight );
+                                anchor.style.position = 'absolute';
+                                anchor.style.top = height + 'px';
+                                anchor.style.bottom = '';
+                                this.style.display = 'none';
+
+                        ">...</span> is not clickable at point (995, 628). Other element would receive the click: <a class="qc-cmp2-persistent-link" id="qc-cmp2-persistent-link" data-nosnippet="" tabindex="0" href="#">...</a>
+  (Session info: chrome=133.0.6943.60)
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x008204A3]
+	(No symbol) [0x0086E5D0]
+	(No symbol) [0x0086C984]
+	(No symbol) [0x0086A517]
+	(No symbol) [0x008697D4]
+	(No symbol) [0x0085DE55]
+	(No symbol) [0x0088CF3C]
+	(No symbol) [0x0085D8E4]
+	(No symbol) [0x0088D1B4]
+	(No symbol) [0x008AE6E1]
+	(No symbol) [0x0088CD36]
+	(No symbol) [0x0085BD29]
+	(No symbol) [0x0085D064]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x009514A8]
+	(No symbol) [0x00951647]
+	(No symbol) [0x00943D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 15:16:48,737 [WARNING] Cookies acceptance button not found or already accepted.
+2025-02-21 15:16:49,810 [ERROR] An unexpected error occurred: Message: element click intercepted: Element <span class="anchor_close" onclick="
+                            var body = document.body,
+                                html = document.documentElement,
+                                anchor = document.getElementById('yb_anchor_wrapper'),
+                                height = Math.max( body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight );
+                                anchor.style.position = 'absolute';
+                                anchor.style.top = height + 'px';
+                                anchor.style.bottom = '';
+                                this.style.display = 'none';
+
+                        ">...</span> is not clickable at point (995, 628). Other element would receive the click: <a class="qc-cmp2-persistent-link" id="qc-cmp2-persistent-link" data-nosnippet="" tabindex="0" href="#">...</a>
+  (Session info: chrome=133.0.6943.60)
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x008204A3]
+	(No symbol) [0x0086E5D0]
+	(No symbol) [0x0086C984]
+	(No symbol) [0x0086A517]
+	(No symbol) [0x008697D4]
+	(No symbol) [0x0085DE55]
+	(No symbol) [0x0088CF3C]
+	(No symbol) [0x0085D8E4]
+	(No symbol) [0x0088D1B4]
+	(No symbol) [0x008AE6E1]
+	(No symbol) [0x0088CD36]
+	(No symbol) [0x0085BD29]
+	(No symbol) [0x0085D064]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x009514A8]
+	(No symbol) [0x00951647]
+	(No symbol) [0x00943D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 15:16:52,954 [INFO] Route finding process completed.
