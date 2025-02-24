@@ -45,7 +45,7 @@ def main():
         end_stations = station_manager.find_nearest_stations(end_coords[0], end_coords[1], num_stations)
 
         date = "2025-02-19"
-        time = "09:00"
+        time = "06:00"
 
         # Find connections
         connections = route_finder.find_connections(start_stations, end_stations, date, time)
@@ -55,16 +55,13 @@ def main():
             print("Otrzymane połączenia:")
             for connection in connections:
                 print(f"Połączenie z {connection['start_station']} do {connection['end_station']}:")
-                print(
-                    f" - Przesiadki: {connection['transfers']}, Odjazd: {connection['departure']}, Czas trwania: {connection['duration']}"
-                )
+                print(f" - Przesiadki: {connection['transfers']}, Odjazd: {connection['departure']}, Czas trwania: {connection['duration']}")
         else:
             print("Nie znaleziono połączeń dla podanych parametrów.")
     else:
         print("Nie udało się uzyskać współrzędnych dla podanych adresów.")
 
     # Close resources
-    route_finder.close_driver()
     db_manager.close_db()
     logging.info("Route finding process completed.")
 

@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5b36f54-2b42-4bb6-b31c-298975e43246" name="Changes" comment="File update">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="c5b36f54-2b42-4bb6-b31c-298975e43246" name="Changes" comment="Upated main.py, implemented optimalizations with finding the closest stations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RealRouteFinder.py" beforeDir="false" afterPath="$PROJECT_DIR$/RealRouteFinder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TrainStationDatabaseCreation.py" beforeDir="false" afterPath="$PROJECT_DIR$/TrainStationDatabaseCreation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stations.db" beforeDir="false" afterPath="$PROJECT_DIR$/stations.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/route_finder.log" beforeDir="false" afterPath="$PROJECT_DIR$/route_finder.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739975570318</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Upated main.py, implemented optimalizations with finding the closest stations">
+      <option name="closed" value="true" />
+      <created>1740147555219</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740147555219</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +190,7 @@
     <MESSAGE value="Added logic for finding destination location stations" />
     <MESSAGE value="Added class for finding train routes" />
     <MESSAGE value="File update" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Upated main.py, implemented optimalizations with finding the closest stations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upated main.py, implemented optimalizations with finding the closest stations" />
   </component>
 </project>
