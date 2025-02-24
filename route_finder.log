@@ -1048,3 +1048,2523 @@ Stacktrace:
 	RtlClearBits [0x77D3C20F+191]
 
 2025-02-21 15:16:52,954 [INFO] Route finding process completed.
+2025-02-21 15:22:14,542 [INFO] Starting the route finding process.
+2025-02-21 15:22:14,547 [INFO] ====== WebDriver manager ======
+2025-02-21 15:22:28,888 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-21 15:22:29,034 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-21 15:22:29,160 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-21 15:22:32,612 [INFO] Stations already fetched and stored.
+2025-02-21 15:22:38,762 [INFO] Zaakceptowano cookies.
+2025-02-21 15:22:40,135 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: element click intercepted: Element is not clickable at point (995, 650)
+  (Session info: chrome=133.0.6943.60)
+Stacktrace:
+	GetHandleVerifier [0x009C0283+25139]
+	(No symbol) [0x0094B234]
+	(No symbol) [0x008204A3]
+	(No symbol) [0x0086E5D0]
+	(No symbol) [0x0086C984]
+	(No symbol) [0x0086A517]
+	(No symbol) [0x008697D4]
+	(No symbol) [0x0085DE55]
+	(No symbol) [0x0088CF3C]
+	(No symbol) [0x0085D8E4]
+	(No symbol) [0x0088D1B4]
+	(No symbol) [0x008AE6E1]
+	(No symbol) [0x0088CD36]
+	(No symbol) [0x0085BD29]
+	(No symbol) [0x0085D064]
+	GetHandleVerifier [0x00CCB143+3215603]
+	GetHandleVerifier [0x00CE22BA+3310186]
+	GetHandleVerifier [0x00CDC4D2+3286146]
+	GetHandleVerifier [0x00A59C80+654384]
+	(No symbol) [0x009545BD]
+	(No symbol) [0x009514A8]
+	(No symbol) [0x00951647]
+	(No symbol) [0x00943D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-21 15:22:59,325 [WARNING] Przycisk akceptacji cookies nie zosta³ znaleziony lub ju¿ zaakceptowano.
+2025-02-21 15:22:59,519 [INFO] Anker zamkniêty pomyœlnie.
+2025-02-21 15:23:05,007 [ERROR] Nie uda³o siê znaleŸæ lub wybraæ stacji: Chorzów Stary, b³¹d: Message: 
+
+2025-02-21 15:23:05,008 [ERROR] Nie uda³o siê wybraæ stacji pocz¹tkowej: Chorzów Stary
+2025-02-21 15:23:19,134 [WARNING] Przycisk akceptacji cookies nie zosta³ znaleziony lub ju¿ zaakceptowano.
+2025-02-21 15:23:19,216 [INFO] Anker zamkniêty pomyœlnie.
+2025-02-24 07:54:11,482 [INFO] Starting the route finding process.
+2025-02-24 07:54:11,504 [INFO] ====== WebDriver manager ======
+2025-02-24 07:54:22,142 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 07:54:22,446 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 07:54:22,566 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 07:54:22,807 [INFO] WebDriver version 133.0.6943.126 selected
+2025-02-24 07:54:22,810 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.126/win32/chromedriver-win32.zip
+2025-02-24 07:54:22,811 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.126/win32/chromedriver-win32.zip
+2025-02-24 07:54:23,091 [INFO] Driver downloading response is 200
+2025-02-24 07:54:26,560 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 07:54:27,078 [INFO] Driver has been saved in cache [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126]
+2025-02-24 07:54:27,093 [INFO] Stations already fetched and stored.
+2025-02-24 07:55:50,082 [INFO] Starting the route finding process.
+2025-02-24 07:55:50,087 [INFO] ====== WebDriver manager ======
+2025-02-24 07:56:02,567 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 07:56:02,696 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 07:56:02,815 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 07:56:02,819 [INFO] Stations already fetched and stored.
+2025-02-24 07:59:27,292 [INFO] Route finding process completed.
+2025-02-24 08:38:13,575 [INFO] Starting the route finding process.
+2025-02-24 08:38:13,579 [INFO] ====== WebDriver manager ======
+2025-02-24 08:38:23,637 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 08:38:23,785 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 08:38:23,923 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 08:38:26,567 [INFO] Stations already fetched and stored.
+2025-02-24 08:38:33,601 [INFO] Zaakceptowano cookies.
+2025-02-24 08:38:34,875 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: element click intercepted: Element is not clickable at point (995, 650)
+  (Session info: chrome=133.0.6943.60)
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00FCE5D0]
+	(No symbol) [0x00FCC984]
+	(No symbol) [0x00FCA517]
+	(No symbol) [0x00FC97D4]
+	(No symbol) [0x00FBDE55]
+	(No symbol) [0x00FECF3C]
+	(No symbol) [0x00FBD8E4]
+	(No symbol) [0x00FED1B4]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 08:38:54,080 [WARNING] Przycisk akceptacji cookies nie zosta³ znaleziony lub ju¿ zaakceptowano: Message: 
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00FC8338]
+	(No symbol) [0x00FC868B]
+	(No symbol) [0x01010F62]
+	(No symbol) [0x00FECF84]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 08:38:54,173 [INFO] Anker zamkniêty pomyœlnie.
+2025-02-24 08:38:54,407 [INFO] Wybrano stacjê: Chorzów Stary
+2025-02-24 08:38:54,568 [INFO] Wybrano stacjê: Chrzanów
+2025-02-24 08:38:54,584 [ERROR] Pole daty nie zosta³o znalezione: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='date']"}
+  (Session info: chrome=133.0.6943.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00FC8338]
+	(No symbol) [0x00FC868B]
+	(No symbol) [0x01010F62]
+	(No symbol) [0x00FECF84]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 08:38:54,584 [ERROR] Nie uda³o siê wprowadziæ daty i czasu.
+2025-02-24 08:40:43,400 [INFO] Starting the route finding process.
+2025-02-24 08:40:43,405 [INFO] ====== WebDriver manager ======
+2025-02-24 08:40:53,510 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 08:40:53,646 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 08:40:53,791 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 08:40:56,455 [INFO] Stations already fetched and stored.
+2025-02-24 08:41:02,841 [INFO] Zaakceptowano cookies.
+2025-02-24 08:41:03,486 [INFO] Wybrano stacjê: Chorzów Stary
+2025-02-24 08:41:03,939 [INFO] Wybrano stacjê: Trzebinia
+2025-02-24 08:41:11,330 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: stale element reference: stale element not found
+  (Session info: chrome=133.0.6943.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00F91BE1]
+	(No symbol) [0x00F90CD0]
+	(No symbol) [0x00F87932]
+	(No symbol) [0x00F85CDA]
+	(No symbol) [0x00F88F9A]
+	(No symbol) [0x00F89017]
+	(No symbol) [0x00FC9F8A]
+	(No symbol) [0x00FBF7A2]
+	(No symbol) [0x00FECF3C]
+	(No symbol) [0x00FBD8E4]
+	(No symbol) [0x00FED1B4]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 08:48:52,611 [INFO] Starting the route finding process.
+2025-02-24 08:48:52,615 [INFO] ====== WebDriver manager ======
+2025-02-24 08:49:02,807 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 08:49:02,933 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 08:49:03,062 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 08:49:05,722 [INFO] Stations already fetched and stored.
+2025-02-24 08:49:40,064 [INFO] Zaakceptowano cookies.
+2025-02-24 08:49:42,076 [INFO] Wybrano stacjê: Chorzów Stary
+2025-02-24 08:49:42,411 [INFO] Wybrano stacjê: Trzebinia
+2025-02-24 08:49:48,385 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: stale element reference: stale element not found
+  (Session info: chrome=133.0.6943.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00F91BE1]
+	(No symbol) [0x00F90CD0]
+	(No symbol) [0x00F87932]
+	(No symbol) [0x00F85CDA]
+	(No symbol) [0x00F88F9A]
+	(No symbol) [0x00F89017]
+	(No symbol) [0x00FC8F5A]
+	(No symbol) [0x00FC8FE1]
+	(No symbol) [0x00FC098D]
+	(No symbol) [0x00FECF3C]
+	(No symbol) [0x00FBD8E4]
+	(No symbol) [0x00FED1B4]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 08:50:07,730 [WARNING] Przycisk akceptacji cookies nie zosta³ znaleziony lub ju¿ zaakceptowano: Message: 
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00FC8338]
+	(No symbol) [0x00FC868B]
+	(No symbol) [0x01010F62]
+	(No symbol) [0x00FECF84]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 08:50:07,943 [INFO] Wybrano stacjê: Chorzów Stary
+2025-02-24 08:50:08,134 [INFO] Wybrano stacjê: Chrzanów
+2025-02-24 08:50:18,518 [WARNING] Przycisk zamkniêcia ankera nie zosta³ znaleziony lub ju¿ zamkniêty: Message: 
+
+2025-02-24 08:50:18,638 [INFO] Klikniêto przycisk wyszukiwania.
+2025-02-24 08:52:51,057 [INFO] Starting the route finding process.
+2025-02-24 08:52:51,060 [INFO] ====== WebDriver manager ======
+2025-02-24 08:53:01,253 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 08:53:01,397 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 08:53:01,527 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 08:53:04,019 [INFO] Stations already fetched and stored.
+2025-02-24 08:53:05,091 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000222E54F4F50>, 'Connection to nominatim.openstreetmap.org timed out. (connect timeout=1)')': /search?q=Jagie%C5%82%C5%82y+31b%2F10%2C+Siemianowice+%C5%9Al%C4%85skie%2C+Polska&format=json&limit=1
+2025-02-24 08:53:11,112 [INFO] Zaakceptowano cookies.
+2025-02-24 08:53:11,695 [INFO] Wybrano stacjê: Chorzów Stary
+2025-02-24 08:53:12,014 [INFO] Wybrano stacjê: Trzebinia
+2025-02-24 08:53:18,099 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: stale element reference: stale element not found
+  (Session info: chrome=133.0.6943.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00F91BE1]
+	(No symbol) [0x00F90CD0]
+	(No symbol) [0x00F87932]
+	(No symbol) [0x00F85CDA]
+	(No symbol) [0x00F88F9A]
+	(No symbol) [0x00F89017]
+	(No symbol) [0x00FC9F8A]
+	(No symbol) [0x00FBF7A2]
+	(No symbol) [0x00FECF3C]
+	(No symbol) [0x00FBD8E4]
+	(No symbol) [0x00FED1B4]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 08:53:35,741 [WARNING] Przycisk akceptacji cookies nie zosta³ znaleziony lub ju¿ zaakceptowano: Message: 
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00FC8338]
+	(No symbol) [0x00FC868B]
+	(No symbol) [0x01010F62]
+	(No symbol) [0x00FECF84]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 08:53:36,003 [INFO] Wybrano stacjê: Chorzów Stary
+2025-02-24 08:53:36,664 [INFO] Wybrano stacjê: Chrzanów
+2025-02-24 08:53:36,952 [INFO] Anker zamkniêty pomyœlnie.
+2025-02-24 08:53:37,072 [INFO] Klikniêto przycisk wyszukiwania.
+2025-02-24 08:53:59,231 [WARNING] Przycisk akceptacji cookies nie zosta³ znaleziony lub ju¿ zaakceptowano: Message: 
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00FC8338]
+	(No symbol) [0x00FC868B]
+	(No symbol) [0x01010F62]
+	(No symbol) [0x00FECF84]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 08:53:59,405 [INFO] Wybrano stacjê: Chorzów Stary
+2025-02-24 08:54:00,050 [INFO] Wybrano stacjê: Libi¹¿
+2025-02-24 08:54:00,318 [INFO] Anker zamkniêty pomyœlnie.
+2025-02-24 08:54:00,454 [INFO] Klikniêto przycisk wyszukiwania.
+2025-02-24 08:54:17,889 [WARNING] Przycisk akceptacji cookies nie zosta³ znaleziony lub ju¿ zaakceptowano: Message: 
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00FC8338]
+	(No symbol) [0x00FC868B]
+	(No symbol) [0x01010F62]
+	(No symbol) [0x00FECF84]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 08:54:18,058 [INFO] Wybrano stacjê: Katowice
+2025-02-24 08:54:18,266 [INFO] Wybrano stacjê: Trzebinia
+2025-02-24 08:54:18,480 [INFO] Anker zamkniêty pomyœlnie.
+2025-02-24 08:54:18,582 [INFO] Klikniêto przycisk wyszukiwania.
+2025-02-24 08:54:40,800 [WARNING] Przycisk akceptacji cookies nie zosta³ znaleziony lub ju¿ zaakceptowano: Message: 
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00FC8338]
+	(No symbol) [0x00FC868B]
+	(No symbol) [0x01010F62]
+	(No symbol) [0x00FECF84]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 08:54:40,976 [INFO] Wybrano stacjê: Katowice
+2025-02-24 08:54:41,219 [INFO] Wybrano stacjê: Chrzanów
+2025-02-24 08:54:41,432 [INFO] Anker zamkniêty pomyœlnie.
+2025-02-24 08:54:41,533 [INFO] Klikniêto przycisk wyszukiwania.
+2025-02-24 08:55:03,481 [WARNING] Przycisk akceptacji cookies nie zosta³ znaleziony lub ju¿ zaakceptowano: Message: 
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00FC8338]
+	(No symbol) [0x00FC868B]
+	(No symbol) [0x01010F62]
+	(No symbol) [0x00FECF84]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 08:55:03,632 [INFO] Wybrano stacjê: Katowice
+2025-02-24 08:55:03,778 [INFO] Wybrano stacjê: Libi¹¿
+2025-02-24 08:55:03,963 [INFO] Anker zamkniêty pomyœlnie.
+2025-02-24 08:55:04,058 [INFO] Klikniêto przycisk wyszukiwania.
+2025-02-24 08:55:33,799 [WARNING] Przycisk akceptacji cookies nie zosta³ znaleziony lub ju¿ zaakceptowano: Message: 
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00FC8338]
+	(No symbol) [0x00FC868B]
+	(No symbol) [0x01010F62]
+	(No symbol) [0x00FECF84]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 08:55:33,958 [INFO] Wybrano stacjê: Bytom
+2025-02-24 08:55:34,129 [INFO] Wybrano stacjê: Trzebinia
+2025-02-24 08:55:34,390 [INFO] Anker zamkniêty pomyœlnie.
+2025-02-24 08:55:34,482 [INFO] Klikniêto przycisk wyszukiwania.
+2025-02-24 08:55:55,967 [WARNING] Przycisk akceptacji cookies nie zosta³ znaleziony lub ju¿ zaakceptowano: Message: 
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00FC8338]
+	(No symbol) [0x00FC868B]
+	(No symbol) [0x01010F62]
+	(No symbol) [0x00FECF84]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 08:55:56,135 [INFO] Wybrano stacjê: Bytom
+2025-02-24 08:55:56,310 [INFO] Wybrano stacjê: Chrzanów
+2025-02-24 08:55:56,486 [INFO] Anker zamkniêty pomyœlnie.
+2025-02-24 08:55:56,576 [INFO] Klikniêto przycisk wyszukiwania.
+2025-02-24 08:56:17,575 [WARNING] Przycisk akceptacji cookies nie zosta³ znaleziony lub ju¿ zaakceptowano: Message: 
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00FC8338]
+	(No symbol) [0x00FC868B]
+	(No symbol) [0x01010F62]
+	(No symbol) [0x00FECF84]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 08:56:17,785 [INFO] Wybrano stacjê: Bytom
+2025-02-24 08:56:17,958 [INFO] Wybrano stacjê: Libi¹¿
+2025-02-24 08:56:18,156 [INFO] Anker zamkniêty pomyœlnie.
+2025-02-24 08:56:18,257 [INFO] Klikniêto przycisk wyszukiwania.
+2025-02-24 08:56:31,424 [INFO] Route finding process completed.
+2025-02-24 09:09:28,371 [INFO] Starting the route finding process.
+2025-02-24 09:09:28,379 [INFO] ====== WebDriver manager ======
+2025-02-24 09:09:38,663 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 09:09:38,962 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 09:09:39,106 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 09:09:42,089 [INFO] Stations already fetched and stored.
+2025-02-24 09:09:48,511 [INFO] Zaakceptowano cookies.
+2025-02-24 09:09:49,037 [INFO] Wybrano stacjê: Chorzów Stary
+2025-02-24 09:09:49,288 [INFO] Wybrano stacjê: Trzebinia
+2025-02-24 09:09:55,890 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: stale element reference: stale element not found
+  (Session info: chrome=133.0.6943.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00F91BE1]
+	(No symbol) [0x00F90CD0]
+	(No symbol) [0x00F87932]
+	(No symbol) [0x00F85CDA]
+	(No symbol) [0x00F88F9A]
+	(No symbol) [0x00F89017]
+	(No symbol) [0x00FC9F8A]
+	(No symbol) [0x00FBF7A2]
+	(No symbol) [0x00FECF3C]
+	(No symbol) [0x00FBD8E4]
+	(No symbol) [0x00FED1B4]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 09:11:21,149 [INFO] Starting the route finding process.
+2025-02-24 09:11:21,155 [INFO] ====== WebDriver manager ======
+2025-02-24 09:11:31,343 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 09:11:31,468 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 09:11:31,599 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 09:11:34,487 [INFO] Stations already fetched and stored.
+2025-02-24 09:11:40,613 [INFO] Zaakceptowano cookies.
+2025-02-24 09:11:41,277 [INFO] Wybrano stacjê: Chorzów Stary
+2025-02-24 09:11:41,583 [INFO] Wybrano stacjê: Trzebinia
+2025-02-24 09:11:44,290 [ERROR] Pole czasu nie zosta³o znalezione: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='hour']"}
+  (Session info: chrome=133.0.6943.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00FC8338]
+	(No symbol) [0x00FC868B]
+	(No symbol) [0x01010F62]
+	(No symbol) [0x00FECF84]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 09:11:44,290 [ERROR] Nie uda³o siê wprowadziæ daty i czasu.
+2025-02-24 09:11:56,102 [WARNING] Przycisk akceptacji cookies nie zosta³ znaleziony lub ju¿ zaakceptowano: Message: 
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00FC8338]
+	(No symbol) [0x00FC868B]
+	(No symbol) [0x01010F62]
+	(No symbol) [0x00FECF84]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 09:11:56,510 [INFO] Wybrano stacjê: Chorzów Stary
+2025-02-24 09:11:56,857 [INFO] Wybrano stacjê: Chrzanów
+2025-02-24 09:11:57,316 [INFO] Anker zamkniêty pomyœlnie.
+2025-02-24 09:11:57,600 [INFO] Klikniêto przycisk wyszukiwania.
+2025-02-24 09:14:45,614 [INFO] Starting the route finding process.
+2025-02-24 09:14:45,617 [INFO] ====== WebDriver manager ======
+2025-02-24 09:14:56,012 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 09:14:56,266 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 09:14:56,379 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 09:14:59,125 [INFO] Stations already fetched and stored.
+2025-02-24 09:15:05,616 [INFO] Zaakceptowano cookies.
+2025-02-24 09:15:06,182 [INFO] Wybrano stacjê: Chorzów Stary
+2025-02-24 09:15:06,479 [INFO] Wybrano stacjê: Trzebinia
+2025-02-24 09:15:14,002 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: stale element reference: stale element not found
+  (Session info: chrome=133.0.6943.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00F91BE1]
+	(No symbol) [0x00F90CD0]
+	(No symbol) [0x00F87932]
+	(No symbol) [0x00F85CDA]
+	(No symbol) [0x00F88F9A]
+	(No symbol) [0x00F89017]
+	(No symbol) [0x00FC9F8A]
+	(No symbol) [0x00FBF7A2]
+	(No symbol) [0x00FECF3C]
+	(No symbol) [0x00FBD8E4]
+	(No symbol) [0x00FED1B4]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 09:17:12,925 [INFO] Starting the route finding process.
+2025-02-24 09:17:12,928 [INFO] ====== WebDriver manager ======
+2025-02-24 09:17:22,970 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 09:17:23,109 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 09:17:23,268 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 09:17:25,752 [INFO] Stations already fetched and stored.
+2025-02-24 09:17:32,666 [INFO] Zaakceptowano cookies.
+2025-02-24 09:17:33,128 [INFO] Wybrano stacjê: Chorzów Stary
+2025-02-24 09:17:33,406 [INFO] Wybrano stacjê: Trzebinia
+2025-02-24 09:17:39,551 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: stale element reference: stale element not found
+  (Session info: chrome=133.0.6943.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00F91BE1]
+	(No symbol) [0x00F90CD0]
+	(No symbol) [0x00F87932]
+	(No symbol) [0x00F85CDA]
+	(No symbol) [0x00F88F9A]
+	(No symbol) [0x00F89017]
+	(No symbol) [0x00FC8F5A]
+	(No symbol) [0x00FC8FE1]
+	(No symbol) [0x00FC098D]
+	(No symbol) [0x00FECF3C]
+	(No symbol) [0x00FBD8E4]
+	(No symbol) [0x00FED1B4]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 09:19:26,900 [INFO] Starting the route finding process.
+2025-02-24 09:19:26,906 [INFO] ====== WebDriver manager ======
+2025-02-24 09:19:36,466 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 09:19:36,601 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 09:19:36,723 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 09:19:39,195 [INFO] Stations already fetched and stored.
+2025-02-24 09:19:46,065 [INFO] Zaakceptowano cookies.
+2025-02-24 09:19:46,636 [INFO] Wybrano stacjê: Chorzów Stary
+2025-02-24 09:19:46,931 [INFO] Wybrano stacjê: Trzebinia
+2025-02-24 09:19:54,523 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: stale element reference: stale element not found
+  (Session info: chrome=133.0.6943.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00F91BE1]
+	(No symbol) [0x00F90CD0]
+	(No symbol) [0x00F87932]
+	(No symbol) [0x00F85CDA]
+	(No symbol) [0x00F88F9A]
+	(No symbol) [0x00F89017]
+	(No symbol) [0x00FC9F8A]
+	(No symbol) [0x00FBF7A2]
+	(No symbol) [0x00FECF3C]
+	(No symbol) [0x00FBD8E4]
+	(No symbol) [0x00FED1B4]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 09:21:08,047 [INFO] Starting the route finding process.
+2025-02-24 09:21:08,050 [INFO] ====== WebDriver manager ======
+2025-02-24 09:21:17,589 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 09:21:18,721 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 09:21:18,842 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 09:21:21,284 [INFO] Stations already fetched and stored.
+2025-02-24 09:21:25,273 [INFO] Zaakceptowano cookies.
+2025-02-24 09:21:26,031 [INFO] Wybrano stacjê: Chorzów Stary
+2025-02-24 09:21:27,120 [INFO] Wybrano stacjê: Trzebinia
+2025-02-24 09:21:34,081 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: stale element reference: stale element not found
+  (Session info: chrome=133.0.6943.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00F91BE1]
+	(No symbol) [0x00F90CD0]
+	(No symbol) [0x00F87932]
+	(No symbol) [0x00F85CDA]
+	(No symbol) [0x00F88F9A]
+	(No symbol) [0x00F89017]
+	(No symbol) [0x00FC9F8A]
+	(No symbol) [0x00FBF7A2]
+	(No symbol) [0x00FECF3C]
+	(No symbol) [0x00FBD8E4]
+	(No symbol) [0x00FED1B4]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 09:22:24,312 [INFO] Starting the route finding process.
+2025-02-24 09:22:24,315 [INFO] ====== WebDriver manager ======
+2025-02-24 09:22:33,772 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 09:22:33,904 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 09:22:33,986 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 09:22:36,633 [INFO] Stations already fetched and stored.
+2025-02-24 09:22:42,398 [INFO] Zaakceptowano cookies.
+2025-02-24 09:22:43,004 [INFO] Wybrano stacjê: Chorzów Stary
+2025-02-24 09:22:43,501 [INFO] Wybrano stacjê: Trzebinia
+2025-02-24 09:22:50,400 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: stale element reference: stale element not found
+  (Session info: chrome=133.0.6943.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00F91BE1]
+	(No symbol) [0x00F90CD0]
+	(No symbol) [0x00F87932]
+	(No symbol) [0x00F85CDA]
+	(No symbol) [0x00F88F9A]
+	(No symbol) [0x00F89017]
+	(No symbol) [0x00FC9F8A]
+	(No symbol) [0x00FBF7A2]
+	(No symbol) [0x00FECF3C]
+	(No symbol) [0x00FBD8E4]
+	(No symbol) [0x00FED1B4]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 09:23:48,302 [INFO] Starting the route finding process.
+2025-02-24 09:23:48,307 [INFO] ====== WebDriver manager ======
+2025-02-24 09:23:58,039 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 09:23:58,155 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 09:23:58,242 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 09:24:00,757 [INFO] Stations already fetched and stored.
+2025-02-24 09:24:06,998 [INFO] Zaakceptowano cookies.
+2025-02-24 09:24:07,566 [INFO] Wybrano stacjê: Chorzów Stary
+2025-02-24 09:24:07,877 [INFO] Wybrano stacjê: Trzebinia
+2025-02-24 09:24:14,272 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: stale element reference: stale element not found
+  (Session info: chrome=133.0.6943.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00F91BE1]
+	(No symbol) [0x00F90CD0]
+	(No symbol) [0x00F87932]
+	(No symbol) [0x00F85CDA]
+	(No symbol) [0x00F88F9A]
+	(No symbol) [0x00F89017]
+	(No symbol) [0x00FC9F8A]
+	(No symbol) [0x00FBF7A2]
+	(No symbol) [0x00FECF3C]
+	(No symbol) [0x00FBD8E4]
+	(No symbol) [0x00FED1B4]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 09:34:46,698 [INFO] Starting the route finding process.
+2025-02-24 09:34:46,701 [INFO] ====== WebDriver manager ======
+2025-02-24 09:34:56,368 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 09:34:57,603 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 09:34:57,814 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 09:35:00,145 [INFO] Stations already fetched and stored.
+2025-02-24 09:35:07,166 [INFO] Zaakceptowano cookies.
+2025-02-24 09:35:07,755 [INFO] Wybrano stacjê: Chorzów Stary
+2025-02-24 09:35:08,118 [INFO] Wybrano stacjê: Trzebinia
+2025-02-24 09:35:15,533 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: stale element reference: stale element not found
+  (Session info: chrome=133.0.6943.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00F91BE1]
+	(No symbol) [0x00F90CD0]
+	(No symbol) [0x00F87932]
+	(No symbol) [0x00F85CDA]
+	(No symbol) [0x00F88F9A]
+	(No symbol) [0x00F89017]
+	(No symbol) [0x00FC8F5A]
+	(No symbol) [0x00FC8FE1]
+	(No symbol) [0x00FC098D]
+	(No symbol) [0x00FECF3C]
+	(No symbol) [0x00FBD8E4]
+	(No symbol) [0x00FED1B4]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 09:35:34,840 [WARNING] Przycisk akceptacji cookies nie zosta³ znaleziony lub ju¿ zaakceptowano: Message: 
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00FC8338]
+	(No symbol) [0x00FC868B]
+	(No symbol) [0x01010F62]
+	(No symbol) [0x00FECF84]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 09:35:35,030 [INFO] Wybrano stacjê: Chorzów Stary
+2025-02-24 09:35:35,241 [INFO] Wybrano stacjê: Chrzanów
+2025-02-24 09:35:35,469 [INFO] Anker zamkniêty pomyœlnie.
+2025-02-24 09:35:45,644 [WARNING] Przycisk zamkniêcia ankera nie zosta³ znaleziony lub ju¿ zamkniêty: Message: 
+
+2025-02-24 09:35:45,738 [INFO] Klikniêto przycisk wyszukiwania.
+2025-02-24 09:35:53,174 [ERROR] B³¹d podczas znajdowania trasy z Chorzów Stary do Chrzanów: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=133.0.6943.60)
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00F6FDE0]
+	(No symbol) [0x00F8D8B2]
+	(No symbol) [0x00FF3D3F]
+	(No symbol) [0x0100DFC9]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 09:35:53,619 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F80300]
+	(No symbol) [0x00FBB1B8]
+	(No symbol) [0x00FECDF6]
+	(No symbol) [0x00FE87E5]
+	(No symbol) [0x00FE7D66]
+	(No symbol) [0x00F53245]
+	(No symbol) [0x00F5379E]
+	(No symbol) [0x00F53C1D]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x00F52F10]
+	(No symbol) [0x00F52AD6]
+	GetHandleVerifier [0x014B6E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 09:35:53,620 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F80300]
+	(No symbol) [0x00FBB1B8]
+	(No symbol) [0x00FECDF6]
+	(No symbol) [0x00FE87E5]
+	(No symbol) [0x00FE7D66]
+	(No symbol) [0x00F53245]
+	(No symbol) [0x00F5379E]
+	(No symbol) [0x00F53C1D]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x00F52F10]
+	(No symbol) [0x00F52AD6]
+	GetHandleVerifier [0x014B6E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 09:35:53,622 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F80300]
+	(No symbol) [0x00FBB1B8]
+	(No symbol) [0x00FECDF6]
+	(No symbol) [0x00FE87E5]
+	(No symbol) [0x00FE7D66]
+	(No symbol) [0x00F53245]
+	(No symbol) [0x00F5379E]
+	(No symbol) [0x00F53C1D]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x00F52F10]
+	(No symbol) [0x00F52AD6]
+	GetHandleVerifier [0x014B6E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 09:35:53,623 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F80300]
+	(No symbol) [0x00FBB1B8]
+	(No symbol) [0x00FECDF6]
+	(No symbol) [0x00FE87E5]
+	(No symbol) [0x00FE7D66]
+	(No symbol) [0x00F53245]
+	(No symbol) [0x00F5379E]
+	(No symbol) [0x00F53C1D]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x00F52F10]
+	(No symbol) [0x00F52AD6]
+	GetHandleVerifier [0x014B6E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 09:35:53,624 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F80300]
+	(No symbol) [0x00FBB1B8]
+	(No symbol) [0x00FECDF6]
+	(No symbol) [0x00FE87E5]
+	(No symbol) [0x00FE7D66]
+	(No symbol) [0x00F53245]
+	(No symbol) [0x00F5379E]
+	(No symbol) [0x00F53C1D]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x00F52F10]
+	(No symbol) [0x00F52AD6]
+	GetHandleVerifier [0x014B6E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 09:35:53,627 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F80300]
+	(No symbol) [0x00FBB1B8]
+	(No symbol) [0x00FECDF6]
+	(No symbol) [0x00FE87E5]
+	(No symbol) [0x00FE7D66]
+	(No symbol) [0x00F53245]
+	(No symbol) [0x00F5379E]
+	(No symbol) [0x00F53C1D]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x00F52F10]
+	(No symbol) [0x00F52AD6]
+	GetHandleVerifier [0x014B6E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 09:35:53,629 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F80300]
+	(No symbol) [0x00FBB1B8]
+	(No symbol) [0x00FECDF6]
+	(No symbol) [0x00FE87E5]
+	(No symbol) [0x00FE7D66]
+	(No symbol) [0x00F53245]
+	(No symbol) [0x00F5379E]
+	(No symbol) [0x00F53C1D]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x00F52F10]
+	(No symbol) [0x00F52AD6]
+	GetHandleVerifier [0x014B6E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 09:46:53,237 [INFO] Starting the route finding process.
+2025-02-24 09:46:53,241 [INFO] ====== WebDriver manager ======
+2025-02-24 09:47:07,065 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 09:47:07,384 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 09:47:07,502 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 09:47:11,682 [INFO] Stations already fetched and stored.
+2025-02-24 09:47:19,161 [INFO] Zaakceptowano cookies.
+2025-02-24 09:47:19,687 [INFO] Wybrano stacjê: Chorzów Stary
+2025-02-24 09:47:20,167 [INFO] Wybrano stacjê: Trzebinia
+2025-02-24 09:47:30,729 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: stale element reference: stale element not found
+  (Session info: chrome=133.0.6943.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00F91BE1]
+	(No symbol) [0x00F90CD0]
+	(No symbol) [0x00F87932]
+	(No symbol) [0x00F85CDA]
+	(No symbol) [0x00F88F9A]
+	(No symbol) [0x00F89017]
+	(No symbol) [0x00FC9F8A]
+	(No symbol) [0x00FBF7A2]
+	(No symbol) [0x00FECF3C]
+	(No symbol) [0x00FBD8E4]
+	(No symbol) [0x00FED1B4]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 09:47:50,441 [WARNING] Przycisk akceptacji cookies nie zosta³ znaleziony lub ju¿ zaakceptowano: Message: 
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00FC8338]
+	(No symbol) [0x00FC868B]
+	(No symbol) [0x01010F62]
+	(No symbol) [0x00FECF84]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 09:47:50,758 [INFO] Wybrano stacjê: Chorzów Stary
+2025-02-24 09:47:51,233 [INFO] Wybrano stacjê: Chrzanów
+2025-02-24 09:47:52,171 [INFO] Anker zamkniêty pomyœlnie.
+2025-02-24 09:48:02,400 [WARNING] Przycisk zamkniêcia ankera nie zosta³ znaleziony lub ju¿ zamkniêty: Message: 
+
+2025-02-24 09:48:02,635 [INFO] Klikniêto przycisk wyszukiwania.
+2025-02-24 09:48:13,146 [ERROR] B³¹d podczas znajdowania trasy z Chorzów Stary do Chrzanów: Message: 
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00FC8338]
+	(No symbol) [0x00FC868B]
+	(No symbol) [0x01010F62]
+	(No symbol) [0x00FECF84]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 09:48:32,378 [WARNING] Przycisk akceptacji cookies nie zosta³ znaleziony lub ju¿ zaakceptowano: Message: 
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00FC8338]
+	(No symbol) [0x00FC868B]
+	(No symbol) [0x01010F62]
+	(No symbol) [0x00FECF84]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 09:48:32,740 [INFO] Wybrano stacjê: Chorzów Stary
+2025-02-24 09:48:32,972 [INFO] Wybrano stacjê: Libi¹¿
+2025-02-24 09:48:41,339 [INFO] Starting the route finding process.
+2025-02-24 09:48:41,342 [INFO] ====== WebDriver manager ======
+2025-02-24 09:48:52,533 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 09:48:52,664 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 09:48:52,764 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 09:48:56,309 [INFO] Stations already fetched and stored.
+2025-02-24 09:49:04,427 [INFO] Zaakceptowano cookies.
+2025-02-24 09:49:05,052 [INFO] Wybrano stacjê: Chorzów Stary
+2025-02-24 09:49:05,373 [INFO] Wybrano stacjê: Trzebinia
+2025-02-24 09:49:11,626 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: stale element reference: stale element not found
+  (Session info: chrome=133.0.6943.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00F91BE1]
+	(No symbol) [0x00F90CD0]
+	(No symbol) [0x00F87932]
+	(No symbol) [0x00F85CDA]
+	(No symbol) [0x00F88F9A]
+	(No symbol) [0x00F89017]
+	(No symbol) [0x00FC9F8A]
+	(No symbol) [0x00FBF7A2]
+	(No symbol) [0x00FECF3C]
+	(No symbol) [0x00FBD8E4]
+	(No symbol) [0x00FED1B4]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 09:49:23,334 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: ('Connection aborted.', ConnectionResetError(10054, 'Istniej¹ce po³¹czenie zosta³o gwa³townie zamkniête przez zdalnego hosta', None, 10054, None))
+2025-02-24 09:49:27,410 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000147CFC2FED0>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/3028c1f54e8c434f398a6a0356bbe4de/url
+2025-02-24 09:49:31,519 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000147CFD24910>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/3028c1f54e8c434f398a6a0356bbe4de/url
+2025-02-24 09:49:35,568 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000147CFD0C9D0>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/3028c1f54e8c434f398a6a0356bbe4de/url
+2025-02-24 09:49:39,671 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: HTTPConnectionPool(host='localhost', port=59720): Max retries exceeded with url: /session/3028c1f54e8c434f398a6a0356bbe4de/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000147CFD0C180>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia'))
+2025-02-24 09:49:43,734 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000147CFC77890>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/3028c1f54e8c434f398a6a0356bbe4de/url
+2025-02-24 09:49:47,837 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000147CFCCA690>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/3028c1f54e8c434f398a6a0356bbe4de/url
+2025-02-24 09:49:51,914 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000147CFCCA8B0>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/3028c1f54e8c434f398a6a0356bbe4de/url
+2025-02-24 09:49:56,017 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: HTTPConnectionPool(host='localhost', port=59720): Max retries exceeded with url: /session/3028c1f54e8c434f398a6a0356bbe4de/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000147CFCCAAD0>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia'))
+2025-02-24 09:50:00,092 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000147CFCCAE00>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/3028c1f54e8c434f398a6a0356bbe4de/url
+2025-02-24 09:50:04,184 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000147CFCCB020>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/3028c1f54e8c434f398a6a0356bbe4de/url
+2025-02-24 09:50:08,270 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000147CFCCB240>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/3028c1f54e8c434f398a6a0356bbe4de/url
+2025-02-24 09:50:12,353 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: HTTPConnectionPool(host='localhost', port=59720): Max retries exceeded with url: /session/3028c1f54e8c434f398a6a0356bbe4de/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000147CFCCB460>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia'))
+2025-02-24 09:50:16,428 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000147CFCCB790>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/3028c1f54e8c434f398a6a0356bbe4de/url
+2025-02-24 09:50:20,548 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000147CFCCB9B0>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/3028c1f54e8c434f398a6a0356bbe4de/url
+2025-02-24 09:50:27,844 [INFO] Starting the route finding process.
+2025-02-24 09:50:27,847 [INFO] ====== WebDriver manager ======
+2025-02-24 09:50:39,291 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 09:50:39,393 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 09:50:39,505 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 09:50:42,202 [INFO] Stations already fetched and stored.
+2025-02-24 09:50:48,903 [INFO] Zaakceptowano cookies.
+2025-02-24 09:50:49,466 [INFO] Wybrano stacjê: Chorzów Stary
+2025-02-24 09:50:49,730 [INFO] Wybrano stacjê: Trzebinia
+2025-02-24 09:50:56,086 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: stale element reference: stale element not found
+  (Session info: chrome=133.0.6943.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00F91BE1]
+	(No symbol) [0x00F90CD0]
+	(No symbol) [0x00F87932]
+	(No symbol) [0x00F85CDA]
+	(No symbol) [0x00F88F9A]
+	(No symbol) [0x00F89017]
+	(No symbol) [0x00FC9F8A]
+	(No symbol) [0x00FBF7A2]
+	(No symbol) [0x00FECF3C]
+	(No symbol) [0x00FBD8E4]
+	(No symbol) [0x00FED1B4]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 09:51:11,614 [WARNING] Przycisk akceptacji cookies nie zosta³ znaleziony lub ju¿ zaakceptowano: Message: 
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00FC8338]
+	(No symbol) [0x00FC868B]
+	(No symbol) [0x01010F62]
+	(No symbol) [0x00FECF84]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 09:51:11,803 [INFO] Wybrano stacjê: Chorzów Stary
+2025-02-24 09:51:11,951 [INFO] Wybrano stacjê: Chrzanów
+2025-02-24 09:51:12,293 [INFO] Anker zamkniêty pomyœlnie.
+2025-02-24 09:51:13,056 [INFO] Klikniêto przycisk wyszukiwania.
+2025-02-24 09:51:55,296 [INFO] Starting the route finding process.
+2025-02-24 09:51:55,299 [INFO] ====== WebDriver manager ======
+2025-02-24 09:52:05,270 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 09:52:05,396 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 09:52:05,513 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 09:52:08,150 [INFO] Stations already fetched and stored.
+2025-02-24 09:52:36,477 [INFO] Zaakceptowano cookies.
+2025-02-24 09:52:38,895 [INFO] Wybrano stacjê: Chorzów Stary
+2025-02-24 09:52:39,381 [INFO] Wybrano stacjê: Trzebinia
+2025-02-24 09:52:45,638 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: stale element reference: stale element not found
+  (Session info: chrome=133.0.6943.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00F91BE1]
+	(No symbol) [0x00F90CD0]
+	(No symbol) [0x00F87932]
+	(No symbol) [0x00F85CDA]
+	(No symbol) [0x00F88F9A]
+	(No symbol) [0x00F89017]
+	(No symbol) [0x00FC9F8A]
+	(No symbol) [0x00FBF7A2]
+	(No symbol) [0x00FECF3C]
+	(No symbol) [0x00FBD8E4]
+	(No symbol) [0x00FED1B4]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 09:54:19,951 [INFO] Starting the route finding process.
+2025-02-24 09:54:19,954 [INFO] ====== WebDriver manager ======
+2025-02-24 09:54:29,562 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 09:54:29,716 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 09:54:29,820 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 09:54:32,467 [INFO] Stations already fetched and stored.
+2025-02-24 09:54:39,115 [INFO] Zaakceptowano cookies.
+2025-02-24 09:54:39,719 [INFO] Wybrano stacjê: Chorzów Stary
+2025-02-24 09:54:40,001 [INFO] Wybrano stacjê: Trzebinia
+2025-02-24 09:54:48,017 [ERROR] Pole czasu nie zosta³o znalezione: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='hour']"}
+  (Session info: chrome=133.0.6943.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00FC8338]
+	(No symbol) [0x00FC868B]
+	(No symbol) [0x01010F62]
+	(No symbol) [0x00FECF84]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 09:54:48,018 [ERROR] Nie uda³o siê wprowadziæ daty i czasu.
+2025-02-24 11:30:16,485 [INFO] Starting the route finding process.
+2025-02-24 11:30:16,488 [INFO] ====== WebDriver manager ======
+2025-02-24 11:30:26,286 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 11:30:26,477 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 11:30:26,615 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 11:30:29,621 [INFO] Stations already fetched and stored.
+2025-02-24 11:30:35,785 [INFO] Zaakceptowano cookies.
+2025-02-24 11:30:37,570 [INFO] Wybrano stacjê: Chorzów Stary
+2025-02-24 11:30:38,429 [INFO] Wybrano stacjê: Trzebinia
+2025-02-24 11:30:45,394 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: stale element reference: stale element not found
+  (Session info: chrome=133.0.6943.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00F91BE1]
+	(No symbol) [0x00F90CD0]
+	(No symbol) [0x00F87932]
+	(No symbol) [0x00F85CDA]
+	(No symbol) [0x00F88F9A]
+	(No symbol) [0x00F89017]
+	(No symbol) [0x00FC9F8A]
+	(No symbol) [0x00FBF7A2]
+	(No symbol) [0x00FECF3C]
+	(No symbol) [0x00FBD8E4]
+	(No symbol) [0x00FED1B4]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 11:31:00,940 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: ('Connection aborted.', ConnectionResetError(10054, 'Istniej¹ce po³¹czenie zosta³o gwa³townie zamkniête przez zdalnego hosta', None, 10054, None))
+2025-02-24 11:31:05,036 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018C73B7FED0>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/164e16107f7306e38ac09e9708a7ab2e/url
+2025-02-24 11:31:09,178 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018C73C74910>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/164e16107f7306e38ac09e9708a7ab2e/url
+2025-02-24 11:31:13,273 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018C73C5C9D0>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/164e16107f7306e38ac09e9708a7ab2e/url
+2025-02-24 11:31:17,352 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: HTTPConnectionPool(host='localhost', port=52677): Max retries exceeded with url: /session/164e16107f7306e38ac09e9708a7ab2e/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018C73C5C180>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia'))
+2025-02-24 11:31:21,411 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018C73BC7890>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/164e16107f7306e38ac09e9708a7ab2e/url
+2025-02-24 11:31:25,509 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018C73C1A690>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/164e16107f7306e38ac09e9708a7ab2e/url
+2025-02-24 11:31:29,605 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018C73C1A8B0>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/164e16107f7306e38ac09e9708a7ab2e/url
+2025-02-24 11:31:33,694 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: HTTPConnectionPool(host='localhost', port=52677): Max retries exceeded with url: /session/164e16107f7306e38ac09e9708a7ab2e/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018C73C1AAD0>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia'))
+2025-02-24 11:31:37,769 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018C73C1AE00>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/164e16107f7306e38ac09e9708a7ab2e/url
+2025-02-24 11:31:41,836 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018C73C1B020>: Failed to establish a new connection: [WinError 10061] Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia')': /session/164e16107f7306e38ac09e9708a7ab2e/url
+2025-02-24 11:44:08,162 [INFO] Starting the route finding process.
+2025-02-24 11:44:08,165 [INFO] ====== WebDriver manager ======
+2025-02-24 11:44:17,931 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 11:44:18,067 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 11:44:18,205 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 11:44:20,930 [INFO] Stations already fetched and stored.
+2025-02-24 11:44:24,869 [INFO] Zaakceptowano cookies.
+2025-02-24 11:44:26,319 [INFO] Wybrano stacjê: Chorzów Stary
+2025-02-24 11:44:26,991 [INFO] Wybrano stacjê: Trzebinia
+2025-02-24 11:44:32,983 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: stale element reference: stale element not found
+  (Session info: chrome=133.0.6943.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00F91BE1]
+	(No symbol) [0x00F90CD0]
+	(No symbol) [0x00F87932]
+	(No symbol) [0x00F85CDA]
+	(No symbol) [0x00F88F9A]
+	(No symbol) [0x00F89017]
+	(No symbol) [0x00FC9F8A]
+	(No symbol) [0x00FBF7A2]
+	(No symbol) [0x00FECF3C]
+	(No symbol) [0x00FBD8E4]
+	(No symbol) [0x00FED1B4]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 11:44:42,796 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=133.0.6943.60)
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F80300]
+	(No symbol) [0x00F70E30]
+	(No symbol) [0x00F6FF91]
+	(No symbol) [0x00F8D8B2]
+	(No symbol) [0x00FF3D3F]
+	(No symbol) [0x0100DFC9]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 11:44:43,489 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=133.0.6943.60)
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00F6FDE0]
+	(No symbol) [0x00F8D8B2]
+	(No symbol) [0x00FF3D3F]
+	(No symbol) [0x0100DFC9]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 11:44:44,104 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F80300]
+	(No symbol) [0x00FBB1B8]
+	(No symbol) [0x00FECDF6]
+	(No symbol) [0x00FE87E5]
+	(No symbol) [0x00FE7D66]
+	(No symbol) [0x00F53245]
+	(No symbol) [0x00F5379E]
+	(No symbol) [0x00F53C1D]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x00F52F10]
+	(No symbol) [0x00F52AD6]
+	GetHandleVerifier [0x014B6E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 11:44:44,106 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F80300]
+	(No symbol) [0x00FBB1B8]
+	(No symbol) [0x00FECDF6]
+	(No symbol) [0x00FE87E5]
+	(No symbol) [0x00FE7D66]
+	(No symbol) [0x00F53245]
+	(No symbol) [0x00F5379E]
+	(No symbol) [0x00F53C1D]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x00F52F10]
+	(No symbol) [0x00F52AD6]
+	GetHandleVerifier [0x014B6E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 11:44:44,109 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F80300]
+	(No symbol) [0x00FBB1B8]
+	(No symbol) [0x00FECDF6]
+	(No symbol) [0x00FE87E5]
+	(No symbol) [0x00FE7D66]
+	(No symbol) [0x00F53245]
+	(No symbol) [0x00F5379E]
+	(No symbol) [0x00F53C1D]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x00F52F10]
+	(No symbol) [0x00F52AD6]
+	GetHandleVerifier [0x014B6E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 11:44:44,111 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F80300]
+	(No symbol) [0x00FBB1B8]
+	(No symbol) [0x00FECDF6]
+	(No symbol) [0x00FE87E5]
+	(No symbol) [0x00FE7D66]
+	(No symbol) [0x00F53245]
+	(No symbol) [0x00F5379E]
+	(No symbol) [0x00F53C1D]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x00F52F10]
+	(No symbol) [0x00F52AD6]
+	GetHandleVerifier [0x014B6E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 11:44:44,113 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F80300]
+	(No symbol) [0x00FBB1B8]
+	(No symbol) [0x00FECDF6]
+	(No symbol) [0x00FE87E5]
+	(No symbol) [0x00FE7D66]
+	(No symbol) [0x00F53245]
+	(No symbol) [0x00F5379E]
+	(No symbol) [0x00F53C1D]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x00F52F10]
+	(No symbol) [0x00F52AD6]
+	GetHandleVerifier [0x014B6E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 11:44:44,114 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F80300]
+	(No symbol) [0x00FBB1B8]
+	(No symbol) [0x00FECDF6]
+	(No symbol) [0x00FE87E5]
+	(No symbol) [0x00FE7D66]
+	(No symbol) [0x00F53245]
+	(No symbol) [0x00F5379E]
+	(No symbol) [0x00F53C1D]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x00F52F10]
+	(No symbol) [0x00F52AD6]
+	GetHandleVerifier [0x014B6E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 11:44:46,217 [INFO] Route finding process completed.
+2025-02-24 11:51:58,771 [INFO] Starting the route finding process.
+2025-02-24 11:51:58,774 [INFO] ====== WebDriver manager ======
+2025-02-24 11:52:08,206 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 11:52:08,309 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 11:52:08,440 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 11:52:10,781 [INFO] Stations already fetched and stored.
+2025-02-24 11:52:53,162 [WARNING] Przycisk akceptacji cookies nie zosta³ znaleziony lub ju¿ zaakceptowano: Message: 
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00FC8338]
+	(No symbol) [0x00FC868B]
+	(No symbol) [0x01010F62]
+	(No symbol) [0x00FECF84]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 11:52:58,320 [INFO] Ankieta nie zosta³a znaleziona lub ju¿ zamkniêta: Message: 
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00FC8338]
+	(No symbol) [0x00FC868B]
+	(No symbol) [0x01010F62]
+	(No symbol) [0x00FECF84]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 11:53:03,956 [ERROR] Nie uda³o siê wybraæ stacji Chorzów Stary: Message: element not interactable
+  (Session info: chrome=133.0.6943.60)
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F80300]
+	(No symbol) [0x00FC2D39]
+	(No symbol) [0x00FC1B2E]
+	(No symbol) [0x00FECF3C]
+	(No symbol) [0x00FBD8E4]
+	(No symbol) [0x00FED1B4]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 11:53:03,956 [ERROR] Nie uda³o siê wybraæ stacji pocz¹tkowej: Chorzów Stary
+2025-02-24 11:53:23,114 [WARNING] Przycisk akceptacji cookies nie zosta³ znaleziony lub ju¿ zaakceptowano: Message: 
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00FC8338]
+	(No symbol) [0x00FC868B]
+	(No symbol) [0x01010F62]
+	(No symbol) [0x00FECF84]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 11:53:28,339 [INFO] Ankieta nie zosta³a znaleziona lub ju¿ zamkniêta: Message: 
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00FC8338]
+	(No symbol) [0x00FC868B]
+	(No symbol) [0x01010F62]
+	(No symbol) [0x00FECF84]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 11:53:33,667 [ERROR] Nie uda³o siê wybraæ stacji Chorzów Stary: Message: element not interactable
+  (Session info: chrome=133.0.6943.60)
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F80300]
+	(No symbol) [0x00FC2D39]
+	(No symbol) [0x00FC1B2E]
+	(No symbol) [0x00FECF3C]
+	(No symbol) [0x00FBD8E4]
+	(No symbol) [0x00FED1B4]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 11:53:33,668 [ERROR] Nie uda³o siê wybraæ stacji pocz¹tkowej: Chorzów Stary
+2025-02-24 11:53:52,818 [WARNING] Przycisk akceptacji cookies nie zosta³ znaleziony lub ju¿ zaakceptowano: Message: 
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00FC8338]
+	(No symbol) [0x00FC868B]
+	(No symbol) [0x01010F62]
+	(No symbol) [0x00FECF84]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 11:53:58,024 [INFO] Ankieta nie zosta³a znaleziona lub ju¿ zamkniêta: Message: 
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00FC8338]
+	(No symbol) [0x00FC868B]
+	(No symbol) [0x01010F62]
+	(No symbol) [0x00FECF84]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 11:54:03,316 [ERROR] Nie uda³o siê wybraæ stacji Chorzów Stary: Message: element not interactable
+  (Session info: chrome=133.0.6943.60)
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F80300]
+	(No symbol) [0x00FC2D39]
+	(No symbol) [0x00FC1B2E]
+	(No symbol) [0x00FECF3C]
+	(No symbol) [0x00FBD8E4]
+	(No symbol) [0x00FED1B4]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 11:54:03,316 [ERROR] Nie uda³o siê wybraæ stacji pocz¹tkowej: Chorzów Stary
+2025-02-24 11:58:55,941 [INFO] Starting the route finding process.
+2025-02-24 11:58:55,947 [INFO] ====== WebDriver manager ======
+2025-02-24 11:59:05,340 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 11:59:05,523 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 11:59:05,657 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 11:59:08,328 [INFO] Stations already fetched and stored.
+2025-02-24 11:59:09,647 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=Jagie%C5%82%C5%82y+31b%2F10%2C+Siemianowice+%C5%9Al%C4%85skie%2C+Polska&format=json&limit=1
+2025-02-24 11:59:25,797 [WARNING] Could not find or click the accept cookies button: Message: 
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00FC8338]
+	(No symbol) [0x00FC868B]
+	(No symbol) [0x01010F62]
+	(No symbol) [0x00FECF84]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 11:59:31,028 [INFO] Anchor popup was not present.
+2025-02-24 11:59:31,154 [ERROR] An unexpected error occurred: Message: element not interactable
+  (Session info: chrome=133.0.6943.60)
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F80300]
+	(No symbol) [0x00FC2D39]
+	(No symbol) [0x00FC1B2E]
+	(No symbol) [0x00FECF3C]
+	(No symbol) [0x00FBD8E4]
+	(No symbol) [0x00FED1B4]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 11:59:45,739 [WARNING] Could not find or click the accept cookies button: Message: 
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00FC8338]
+	(No symbol) [0x00FC868B]
+	(No symbol) [0x01010F62]
+	(No symbol) [0x00FECF84]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 11:59:55,226 [INFO] Starting the route finding process.
+2025-02-24 11:59:55,229 [INFO] ====== WebDriver manager ======
+2025-02-24 12:00:06,180 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 12:00:06,321 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 12:00:06,439 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 12:00:09,727 [INFO] Stations already fetched and stored.
+2025-02-24 12:00:14,381 [INFO] Zaakceptowano cookies.
+2025-02-24 12:00:16,237 [INFO] Wybrano stacjê: Chorzów Stary
+2025-02-24 12:00:19,079 [INFO] Wybrano stacjê: Trzebinia
+2025-02-24 12:00:25,824 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: stale element reference: stale element not found
+  (Session info: chrome=133.0.6943.60); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00F91BE1]
+	(No symbol) [0x00F90CD0]
+	(No symbol) [0x00F87932]
+	(No symbol) [0x00F85CDA]
+	(No symbol) [0x00F88F9A]
+	(No symbol) [0x00F89017]
+	(No symbol) [0x00FC8F5A]
+	(No symbol) [0x00FC8FE1]
+	(No symbol) [0x00FC098D]
+	(No symbol) [0x00FECF3C]
+	(No symbol) [0x00FBD8E4]
+	(No symbol) [0x00FED1B4]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 12:00:38,387 [WARNING] Przycisk akceptacji cookies nie zosta³ znaleziony lub ju¿ zaakceptowano: Message: 
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00FC8338]
+	(No symbol) [0x00FC868B]
+	(No symbol) [0x01010F62]
+	(No symbol) [0x00FECF84]
+	(No symbol) [0x0100E6E1]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 12:00:38,606 [INFO] Wybrano stacjê: Chorzów Stary
+2025-02-24 12:00:38,818 [INFO] Wybrano stacjê: Chrzanów
+2025-02-24 12:00:38,993 [INFO] Wprowadzono czas.
+2025-02-24 12:00:39,096 [INFO] Anker zamkniêty pomyœlnie.
+2025-02-24 12:00:39,195 [INFO] Klikniêto przycisk wyszukiwania.
+2025-02-24 12:00:42,686 [ERROR] B³¹d podczas znajdowania trasy z Chorzów Stary do Chrzanów: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=133.0.6943.60)
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F804A3]
+	(No symbol) [0x00F6FDE0]
+	(No symbol) [0x00F8D8B2]
+	(No symbol) [0x00FF3D3F]
+	(No symbol) [0x0100DFC9]
+	(No symbol) [0x00FECD36]
+	(No symbol) [0x00FBBD29]
+	(No symbol) [0x00FBD064]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x010B14A8]
+	(No symbol) [0x010B1647]
+	(No symbol) [0x010A3D20]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 12:00:43,398 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F80300]
+	(No symbol) [0x00FBB1B8]
+	(No symbol) [0x00FECDF6]
+	(No symbol) [0x00FE87E5]
+	(No symbol) [0x00FE7D66]
+	(No symbol) [0x00F53245]
+	(No symbol) [0x00F5379E]
+	(No symbol) [0x00F53C1D]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x00F52F10]
+	(No symbol) [0x00F52AD6]
+	GetHandleVerifier [0x014B6E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 12:00:43,400 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F80300]
+	(No symbol) [0x00FBB1B8]
+	(No symbol) [0x00FECDF6]
+	(No symbol) [0x00FE87E5]
+	(No symbol) [0x00FE7D66]
+	(No symbol) [0x00F53245]
+	(No symbol) [0x00F5379E]
+	(No symbol) [0x00F53C1D]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x00F52F10]
+	(No symbol) [0x00F52AD6]
+	GetHandleVerifier [0x014B6E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 12:00:43,401 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F80300]
+	(No symbol) [0x00FBB1B8]
+	(No symbol) [0x00FECDF6]
+	(No symbol) [0x00FE87E5]
+	(No symbol) [0x00FE7D66]
+	(No symbol) [0x00F53245]
+	(No symbol) [0x00F5379E]
+	(No symbol) [0x00F53C1D]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x00F52F10]
+	(No symbol) [0x00F52AD6]
+	GetHandleVerifier [0x014B6E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 12:00:43,404 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F80300]
+	(No symbol) [0x00FBB1B8]
+	(No symbol) [0x00FECDF6]
+	(No symbol) [0x00FE87E5]
+	(No symbol) [0x00FE7D66]
+	(No symbol) [0x00F53245]
+	(No symbol) [0x00F5379E]
+	(No symbol) [0x00F53C1D]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x00F52F10]
+	(No symbol) [0x00F52AD6]
+	GetHandleVerifier [0x014B6E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 12:00:43,406 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F80300]
+	(No symbol) [0x00FBB1B8]
+	(No symbol) [0x00FECDF6]
+	(No symbol) [0x00FE87E5]
+	(No symbol) [0x00FE7D66]
+	(No symbol) [0x00F53245]
+	(No symbol) [0x00F5379E]
+	(No symbol) [0x00F53C1D]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x00F52F10]
+	(No symbol) [0x00F52AD6]
+	GetHandleVerifier [0x014B6E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 12:00:43,408 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F80300]
+	(No symbol) [0x00FBB1B8]
+	(No symbol) [0x00FECDF6]
+	(No symbol) [0x00FE87E5]
+	(No symbol) [0x00FE7D66]
+	(No symbol) [0x00F53245]
+	(No symbol) [0x00F5379E]
+	(No symbol) [0x00F53C1D]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x00F52F10]
+	(No symbol) [0x00F52AD6]
+	GetHandleVerifier [0x014B6E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 12:00:43,410 [ERROR] Wyst¹pi³ nieoczekiwany b³¹d: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x01120283+25139]
+	(No symbol) [0x010AB234]
+	(No symbol) [0x00F80300]
+	(No symbol) [0x00FBB1B8]
+	(No symbol) [0x00FECDF6]
+	(No symbol) [0x00FE87E5]
+	(No symbol) [0x00FE7D66]
+	(No symbol) [0x00F53245]
+	(No symbol) [0x00F5379E]
+	(No symbol) [0x00F53C1D]
+	GetHandleVerifier [0x0142B143+3215603]
+	GetHandleVerifier [0x014422BA+3310186]
+	GetHandleVerifier [0x0143C4D2+3286146]
+	GetHandleVerifier [0x011B9C80+654384]
+	(No symbol) [0x010B45BD]
+	(No symbol) [0x00F52F10]
+	(No symbol) [0x00F52AD6]
+	GetHandleVerifier [0x014B6E5C+3788300]
+	BaseThreadInitThunk [0x76D97BA9+25]
+	RtlInitializeExceptionChain [0x77D3C28B+107]
+	RtlClearBits [0x77D3C20F+191]
+
+2025-02-24 12:00:45,486 [INFO] Route finding process completed.
+2025-02-24 12:03:04,095 [INFO] Starting the route finding process.
+2025-02-24 12:03:04,099 [INFO] ====== WebDriver manager ======
+2025-02-24 12:03:13,616 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 12:03:13,755 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 12:03:13,895 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 12:03:13,904 [INFO] Stations already fetched and stored.
+2025-02-24 12:04:34,977 [INFO] Starting the route finding process.
+2025-02-24 12:04:34,981 [INFO] ====== WebDriver manager ======
+2025-02-24 12:04:44,665 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 12:04:44,765 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 12:04:44,888 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 12:04:44,896 [INFO] Stations already fetched and stored.
+2025-02-24 12:15:30,317 [INFO] Starting the route finding process.
+2025-02-24 12:15:30,321 [INFO] ====== WebDriver manager ======
+2025-02-24 12:15:40,921 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 12:15:41,504 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 12:15:41,640 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 12:15:41,648 [INFO] Stations already fetched and stored.
+2025-02-24 12:21:26,973 [INFO] Starting the route finding process.
+2025-02-24 12:21:26,979 [INFO] ====== WebDriver manager ======
+2025-02-24 12:21:36,792 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 12:21:36,937 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 12:21:37,072 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 12:21:37,082 [INFO] Stations already fetched and stored.
+2025-02-24 12:21:38,329 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=Jagie%C5%82%C5%82y+31b%2F10%2C+Siemianowice+%C5%9Al%C4%85skie%2C+Polska&format=json&limit=1
+2025-02-24 12:26:01,753 [INFO] Starting the route finding process.
+2025-02-24 12:26:01,756 [INFO] ====== WebDriver manager ======
+2025-02-24 12:26:11,510 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 12:26:11,644 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 12:26:11,756 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 12:26:11,762 [INFO] Stations already fetched and stored.
+2025-02-24 12:30:16,077 [INFO] Route finding process completed.
+2025-02-24 12:32:20,195 [INFO] Starting the route finding process.
+2025-02-24 12:32:20,197 [INFO] ====== WebDriver manager ======
+2025-02-24 12:32:29,339 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 12:32:29,468 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 12:32:29,576 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 12:32:29,581 [INFO] Stations already fetched and stored.
+2025-02-24 12:33:18,063 [INFO] Starting the route finding process.
+2025-02-24 12:33:18,068 [INFO] ====== WebDriver manager ======
+2025-02-24 12:33:27,233 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 12:33:27,324 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 12:33:27,452 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 12:33:27,460 [INFO] Stations already fetched and stored.
+2025-02-24 12:35:48,938 [INFO] Starting the route finding process.
+2025-02-24 12:35:48,941 [INFO] ====== WebDriver manager ======
+2025-02-24 12:35:58,216 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 12:35:58,314 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 12:35:58,444 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 12:35:58,453 [INFO] Stations already fetched and stored.
+2025-02-24 12:39:46,211 [INFO] Route finding process completed.
+2025-02-24 13:24:49,289 [INFO] Starting the route finding process.
+2025-02-24 13:24:49,292 [INFO] ====== WebDriver manager ======
+2025-02-24 13:24:58,878 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 13:24:59,050 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 13:24:59,190 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 13:24:59,199 [INFO] Stations already fetched and stored.
+2025-02-24 13:25:46,731 [INFO] Starting the route finding process.
+2025-02-24 13:25:46,735 [INFO] ====== WebDriver manager ======
+2025-02-24 13:25:56,450 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 13:25:56,580 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 13:25:56,660 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 13:25:56,664 [INFO] Stations already fetched and stored.
+2025-02-24 13:26:58,328 [INFO] Starting the route finding process.
+2025-02-24 13:26:58,332 [INFO] ====== WebDriver manager ======
+2025-02-24 13:27:07,723 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 13:27:07,835 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 13:27:07,992 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 13:27:08,000 [INFO] Stations already fetched and stored.
+2025-02-24 13:27:30,666 [WARNING] No connections found.
+2025-02-24 13:27:50,683 [INFO] Starting the route finding process.
+2025-02-24 13:27:50,690 [INFO] ====== WebDriver manager ======
+2025-02-24 13:28:00,885 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 13:28:01,013 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 13:28:01,108 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 13:28:01,116 [INFO] Stations already fetched and stored.
+2025-02-24 13:29:13,206 [WARNING] No connections found.
+2025-02-24 13:29:56,226 [WARNING] No connections found.
+2025-02-24 13:30:40,512 [WARNING] No connections found.
+2025-02-24 13:35:37,535 [INFO] Starting the route finding process.
+2025-02-24 13:35:37,538 [INFO] ====== WebDriver manager ======
+2025-02-24 13:35:47,276 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 13:35:47,428 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 13:35:47,571 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 13:35:47,580 [INFO] Stations already fetched and stored.
+2025-02-24 13:36:31,308 [INFO] Starting the route finding process.
+2025-02-24 13:36:31,313 [INFO] ====== WebDriver manager ======
+2025-02-24 13:36:41,194 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 13:36:41,293 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 13:36:41,392 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 13:36:41,401 [INFO] Stations already fetched and stored.
+2025-02-24 13:37:40,484 [INFO] Starting the route finding process.
+2025-02-24 13:37:40,487 [INFO] ====== WebDriver manager ======
+2025-02-24 13:37:49,910 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 13:37:50,056 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 13:37:50,175 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 13:37:50,181 [INFO] Stations already fetched and stored.
+2025-02-24 13:38:11,973 [WARNING] No connections found.
+2025-02-24 13:39:00,018 [WARNING] No connections found.
+2025-02-24 13:39:23,005 [WARNING] No connections found.
+2025-02-24 13:39:47,248 [WARNING] No connections found.
+2025-02-24 13:40:11,952 [WARNING] No connections found.
+2025-02-24 13:43:16,744 [INFO] Starting the route finding process.
+2025-02-24 13:43:16,749 [INFO] ====== WebDriver manager ======
+2025-02-24 13:43:26,563 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 13:43:26,691 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 13:43:26,791 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 13:43:26,798 [INFO] Stations already fetched and stored.
+2025-02-24 13:44:07,768 [INFO] Starting the route finding process.
+2025-02-24 13:44:07,771 [INFO] ====== WebDriver manager ======
+2025-02-24 13:44:17,769 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 13:44:17,922 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 13:44:18,039 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 13:44:18,044 [INFO] Stations already fetched and stored.
+2025-02-24 13:45:16,035 [INFO] Starting the route finding process.
+2025-02-24 13:45:16,040 [INFO] ====== WebDriver manager ======
+2025-02-24 13:45:26,484 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 13:45:26,700 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 13:45:26,855 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 13:45:26,864 [INFO] Stations already fetched and stored.
+2025-02-24 13:45:28,018 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=Jagie%C5%82%C5%82y+31b%2F10%2C+Siemianowice+%C5%9Al%C4%85skie%2C+Polska&format=json&limit=1
+2025-02-24 13:45:29,120 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)")': /search?q=Jagie%C5%82%C5%82y+31b%2F10%2C+Siemianowice+%C5%9Al%C4%85skie%2C+Polska&format=json&limit=1
+2025-02-24 13:52:33,118 [INFO] Starting the route finding process.
+2025-02-24 13:52:33,130 [INFO] ====== WebDriver manager ======
+2025-02-24 13:52:43,574 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 13:52:43,715 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-24 13:52:43,849 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-24 13:52:43,860 [INFO] Stations already fetched and stored.
+2025-02-24 13:56:24,134 [INFO] Route finding process completed.
