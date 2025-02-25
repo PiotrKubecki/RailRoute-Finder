@@ -45,10 +45,16 @@ def main():
         end_stations = station_manager.find_nearest_stations(end_coords[0], end_coords[1], num_stations)
 
         date = "2025-02-19"
-        time = "06:00"
+        time = "3:00"
+
+        # Definiowanie wybranych checkboxów
+        checkbox_options = [
+            'direct_connections_only',
+            # Dodaj inne opcje, które chcesz zaznaczyć
+        ]
 
         # Find connections
-        connections = route_finder.find_connections(start_stations, end_stations, date, time)
+        connections = route_finder.find_connections(start_stations, end_stations, date, time, checkbox_options=checkbox_options)
 
         # Output results
         if connections:

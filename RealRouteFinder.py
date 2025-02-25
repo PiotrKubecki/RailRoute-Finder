@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support import expected_conditions as ec
 from webdriver_manager.chrome import ChromeDriverManager
 import os
 
@@ -19,9 +19,9 @@ class RealRouteFinder:
 
     def start_driver(self):
         self.driver = webdriver.Chrome(service=Service(self.driver_path))
-        # Optionally, add Chrome options if needed
+        # Opcjonalnie, dodaj opcje Chrome, jeśli potrzebujesz
         # options = webdriver.ChromeOptions()
-        # options.add_argument('--headless')  # Run in headless mode
+        # options.add_argument('--headless')  # Uruchom w trybie headless
         # self.driver = webdriver.Chrome(service=Service(self.driver_path), options=options)
 
     def stop_driver(self):
@@ -31,12 +31,12 @@ class RealRouteFinder:
 
     def wait_for_element(self, by_strategy, locator, timeout=10):
         return WebDriverWait(self.driver, timeout).until(
-            EC.presence_of_element_located((by_strategy, locator))
+            ec.presence_of_element_located((by_strategy, locator))
         )
 
     def click_element(self, by_strategy, locator, timeout=10):
         element = WebDriverWait(self.driver, timeout).until(
-            EC.element_to_be_clickable((by_strategy, locator))
+            ec.element_to_be_clickable((by_strategy, locator))
         )
         element.click()
 
@@ -45,52 +45,86 @@ class RealRouteFinder:
         element.clear()
         element.send_keys(text)
 
-    def find_real_routes(self, start_station, end_station, date, time):
-        # Initialize the browser
+    def select_checkboxes(self, options_to_select):
+        # Mapping nazw opcji do ich XPaths
+        checkbox_xpaths = {
+            'direct_connections_only': "//*[@id='collapseOne']/fieldset/div[1]/div/label[2]/div",
+            'bicycle transport': "//*[@id='collapseOne']/fieldset/div[2]/div/label[2]/div",
+            'facilities for disabled people': "//*[@id='collapseOne']/fieldset/div[3]/div/label[2]/div",
+            'facilities for people with children': "//*[@id=''collapseOne']/fieldset/div[4]/div/label[2]/div",
+            # Dodaj inne opcje i ich XPaths w razie potrzeby
+        }
+
+        try:
+            for option in options_to_select:
+                if option in checkbox_xpaths:
+                    xpath = checkbox_xpaths[option]
+                    checkbox = self.wait_for_element(By.XPATH, xpath)
+                    if not checkbox.is_selected():
+                        checkbox.click()
+                else:
+                    print(f"Opcja '{option}' nie jest rozpoznawana.")
+        except Exception as e:
+            print(f"Błąd podczas zaznaczania checkboxów: {e}")
+
+    def find_real_routes(self, start_station, end_station, date, time, checkbox_options):
+        # Inicjalizacja przeglądarki
         self.start_driver()
         self.driver.get("https://rozklad-pkp.pl")
 
-        # Accept cookies
+        # Akceptowanie cookies
         try:
             self.click_element(By.XPATH, "//*[@id='qc-cmp2-ui']/div[2]/div/button[2]")
         except:
             print("Nie udało się znaleźć przycisku akceptacji cookies.")
 
-        # Input start station
+        # Wprowadź stację początkową
         self.enter_text(By.XPATH, "//*[@id='from-station']", start_station)
 
-        # Input end station
+        # Wprowadź stację końcową
         self.enter_text(By.XPATH, "//*[@id='to-station']", end_station)
 
-        # # Input date
-        # self.enter_text(By.XPATH, "//*[@id='date']", date)
-
-        # Input time
+        # Wprowadź godzinę
         self.enter_text(By.XPATH, "//*[@id='hour']", time)
 
-        # Close any anchors if they appear
+        # Zamknij ewentualne pop-upy
         self.anchor_close()
 
-        # Click the search button
+        # Zaznacz checkboxy przed wyszukiwaniem
+        if checkbox_options:
+            self.select_checkboxes(checkbox_options)
+
+        # Kliknij przycisk wyszukiwania
         self.click_element(By.XPATH, "//*[@id='singlebutton']")
 
-        # # Close any anchors after search
-        # self.anchor_close()
-
-        # Analyze search results
+        # Analiza wyników wyszukiwania
         connections = []
         try:
-            # Retrieve transfer amount
+            # Sprawdź, czy pojawiła się informacja o braku wyników
+            no_results_xpath = "//div[contains(@class, 'no-result')]"
+            WebDriverWait(self.driver, 5).until(
+                ec.presence_of_element_located((By.XPATH, no_results_xpath))
+            )
+            print("Brak dostępnych połączeń dla podanych parametrów.")
+            # Brak połączeń, zamknij przeglądarkę i zwróć None
+            self.stop_driver()
+            return None
+        except:
+            # Jeżeli nie znaleziono komunikatu o braku wyników, kontynuuj
+            pass
+
+        try:
+            # Pobierz liczbę przesiadek
             transfer_amount = self.wait_for_element(
                 By.XPATH, "//*[@id='focus_guiVCtrl_connection_detailsOut_select_C0-1']/td[6]"
             ).text
 
-            # Retrieve duration
+            # Pobierz czas trwania
             duration = self.wait_for_element(
                 By.XPATH, "//*[@id='focus_guiVCtrl_connection_detailsOut_select_C0-1']/td[5]"
             ).text
 
-            # Retrieve departure time
+            # Pobierz czas odjazdu
             departure_time = self.wait_for_element(
                 By.XPATH, "//*[@id='focus_guiVCtrl_connection_detailsOut_select_C0-1']/td[4]/p[1]/span[1]/span[3]"
             ).text
@@ -102,20 +136,23 @@ class RealRouteFinder:
             })
         except:
             print("Nie udało się znaleźć informacji o połączeniu.")
+            # Nie udało się pobrać danych, zamknij przeglądarkę i zwróć None
+            self.stop_driver()
+            return None
 
-        # Close the browser
+        # Zamknij przeglądarkę
         self.stop_driver()
 
         if connections:
-            return connections[0]  # Return the first connection
+            return connections[0]  # Zwróć pierwsze połączenie
         else:
             return None
 
-    def find_connections(self, start_stations, end_stations, date, time):
+    def find_connections(self, start_stations, end_stations, date, time,checkbox_options=None):
         all_connections = []
         for start_station in start_stations:
             for end_station in end_stations:
-                route = self.find_real_routes(start_station[0], end_station[0], date, time)
+                route = self.find_real_routes(start_station[0], end_station[0], date, time, checkbox_options)
                 if route:
                     connection_info = {
                         'start_station': start_station[0],
@@ -123,10 +160,14 @@ class RealRouteFinder:
                         **route
                     }
                     all_connections.append(connection_info)
+                else:
+                    print(f"Brak połączenia z {start_station[0]} do {end_station[0]}")
+                    # Przejdź do następnej pary stacji
+                    continue
         return all_connections
 
     def anchor_close(self):
         try:
-            self.click_element(By.XPATH, "//*[@id='yb_anchor_wrapper']/span", timeout=5)
+            self.click_element(By.XPATH, "//*[@id='yb_anchor_wrapper']/span", timeout=10)
         except:
-            pass  # If the element isn't found, do nothing
+            pass  # Jeśli element nie zostanie znaleziony, nic nie rób
