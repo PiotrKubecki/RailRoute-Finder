@@ -3638,3 +3638,128 @@ Stacktrace:
 2025-02-25 14:49:05,787 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
 2025-02-25 14:49:05,791 [INFO] Stations already fetched and stored.
 2025-02-25 14:53:53,322 [INFO] Route finding process completed.
+2025-02-26 07:42:42,515 [INFO] Starting the route finding process.
+2025-02-26 07:42:42,534 [INFO] ====== WebDriver manager ======
+2025-02-26 07:42:58,437 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 07:42:58,626 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 07:42:58,748 [INFO] There is no [win64] chromedriver "133.0.6943.141" for browser google-chrome "133.0.6943" in cache
+2025-02-26 07:42:58,749 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 07:42:59,054 [INFO] WebDriver version 133.0.6943.141 selected
+2025-02-26 07:42:59,057 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/win32/chromedriver-win32.zip
+2025-02-26 07:42:59,057 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/win32/chromedriver-win32.zip
+2025-02-26 07:42:59,135 [INFO] Driver downloading response is 200
+2025-02-26 07:42:59,744 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 07:43:00,184 [INFO] Driver has been saved in cache [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.141]
+2025-02-26 07:43:00,198 [INFO] Stations already fetched and stored.
+2025-02-26 07:47:48,084 [INFO] Route finding process completed.
+2025-02-26 08:06:42,646 [INFO] Starting the route finding process.
+2025-02-26 08:06:42,667 [INFO] ====== WebDriver manager ======
+2025-02-26 08:06:51,940 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 08:06:52,098 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 08:06:52,235 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-26 08:06:52,262 [INFO] Stations already fetched and stored.
+2025-02-26 08:12:18,576 [INFO] Route finding process completed.
+2025-02-26 08:19:50,507 [INFO] Starting the route finding process.
+2025-02-26 08:19:50,510 [INFO] ====== WebDriver manager ======
+2025-02-26 08:19:59,782 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 08:19:59,908 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 08:20:00,034 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-26 08:20:00,041 [INFO] Stations already fetched and stored.
+2025-02-26 08:27:05,680 [INFO] Route finding process completed.
+2025-02-26 09:19:28,533 [INFO] Starting the route finding process.
+2025-02-26 09:19:28,554 [INFO] ====== WebDriver manager ======
+2025-02-26 09:19:38,247 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 09:19:38,428 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 09:19:38,569 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-26 09:19:38,583 [INFO] Stations already fetched and stored.
+2025-02-26 09:20:12,731 [INFO] Starting the route finding process.
+2025-02-26 09:20:12,737 [INFO] ====== WebDriver manager ======
+2025-02-26 09:20:24,685 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 09:20:25,124 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 09:20:26,347 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-26 09:20:26,356 [INFO] Stations already fetched and stored.
+2025-02-26 09:29:17,056 [INFO] Starting the route finding process.
+2025-02-26 09:29:17,058 [INFO] ====== WebDriver manager ======
+2025-02-26 09:29:26,146 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 09:29:26,275 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 09:29:26,377 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-26 09:29:26,384 [INFO] Stations already fetched and stored.
+2025-02-26 09:34:23,438 [INFO] Starting the route finding process.
+2025-02-26 09:34:23,441 [INFO] ====== WebDriver manager ======
+2025-02-26 09:34:33,831 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 09:34:33,966 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 09:34:34,114 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-26 09:34:34,125 [INFO] Stations already fetched and stored.
+2025-02-26 09:35:16,663 [INFO] Starting the route finding process.
+2025-02-26 09:35:16,669 [INFO] ====== WebDriver manager ======
+2025-02-26 09:35:28,795 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 09:35:28,934 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 09:35:29,066 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-26 09:35:29,075 [INFO] Stations already fetched and stored.
+2025-02-26 10:04:43,616 [INFO] Starting the route finding process.
+2025-02-26 10:04:43,625 [INFO] ====== WebDriver manager ======
+2025-02-26 10:04:55,813 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 10:04:55,974 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 10:04:56,111 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-26 10:04:56,117 [INFO] Stations already fetched and stored.
+2025-02-26 10:06:11,466 [INFO] Starting the route finding process.
+2025-02-26 10:06:11,470 [INFO] ====== WebDriver manager ======
+2025-02-26 10:06:24,144 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 10:06:24,246 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 10:06:24,368 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-26 10:06:24,372 [INFO] Stations already fetched and stored.
+2025-02-26 11:07:27,739 [INFO] Starting the route finding process.
+2025-02-26 11:07:27,757 [INFO] ====== WebDriver manager ======
+2025-02-26 11:07:39,546 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 11:07:39,957 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 11:07:40,124 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-26 11:07:40,158 [INFO] Stations already fetched and stored.
+2025-02-26 11:18:04,952 [INFO] Route finding process completed.
+2025-02-26 11:21:00,705 [INFO] Starting the route finding process.
+2025-02-26 11:21:00,720 [INFO] ====== WebDriver manager ======
+2025-02-26 11:21:12,970 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 11:21:13,109 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 11:21:13,235 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-26 11:21:13,239 [INFO] Stations already fetched and stored.
+2025-02-26 11:33:32,076 [INFO] Starting the route finding process.
+2025-02-26 11:33:32,100 [INFO] ====== WebDriver manager ======
+2025-02-26 11:33:44,223 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 11:33:44,365 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 11:33:44,974 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-26 11:33:45,004 [INFO] Stations already fetched and stored.
+2025-02-26 11:57:20,345 [INFO] Starting the route finding process.
+2025-02-26 11:57:20,357 [INFO] ====== WebDriver manager ======
+2025-02-26 11:57:33,043 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 11:57:33,208 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 11:57:33,337 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-26 11:57:33,351 [INFO] Stations already fetched and stored.
+2025-02-26 12:01:54,126 [INFO] Starting the route finding process.
+2025-02-26 12:01:54,134 [INFO] ====== WebDriver manager ======
+2025-02-26 12:02:06,459 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 12:02:06,607 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 12:02:06,695 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-26 12:02:06,703 [INFO] Stations already fetched and stored.
+2025-02-26 12:07:25,285 [INFO] Starting the route finding process.
+2025-02-26 12:07:25,292 [INFO] ====== WebDriver manager ======
+2025-02-26 12:07:38,031 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 12:07:38,139 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 12:07:38,270 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-26 12:07:38,279 [INFO] Stations already fetched and stored.
+2025-02-26 12:09:03,400 [INFO] Starting the route finding process.
+2025-02-26 12:09:03,403 [INFO] ====== WebDriver manager ======
+2025-02-26 12:09:15,147 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 12:09:15,297 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 12:09:16,429 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-26 12:09:16,433 [INFO] Stations already fetched and stored.
+2025-02-26 12:16:08,712 [INFO] Starting the route finding process.
+2025-02-26 12:16:08,716 [INFO] ====== WebDriver manager ======
+2025-02-26 12:16:20,270 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 12:16:20,413 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 12:16:20,537 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-26 12:16:20,550 [INFO] Stations already fetched and stored.
+2025-02-26 12:16:48,864 [INFO] Starting the route finding process.
+2025-02-26 12:16:48,868 [INFO] ====== WebDriver manager ======
+2025-02-26 12:17:00,976 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 12:17:01,079 [INFO] Get LATEST chromedriver version for google-chrome
+2025-02-26 12:17:01,196 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-26 12:17:01,202 [INFO] Stations already fetched and stored.
