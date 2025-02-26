@@ -3,7 +3,6 @@ from ClosestStations import StationManager
 from TrainStationDatabaseCreation import StationDatabaseManager
 from RealRouteFinder import RealRouteFinder
 
-# Configure logging
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s [%(levelname)s] %(message)s',
@@ -16,12 +15,10 @@ logging.basicConfig(
 def main():
     logging.info("Starting the route finding process.")
 
-    # Initialize components
     db_manager = StationDatabaseManager()
     station_manager = StationManager(db_manager)
     route_finder = RealRouteFinder()
 
-    # Fetch and store stations if not already fetched
     area = "Polska"
     query_result = db_manager.execute_query("SELECT COUNT(*) FROM stations")
     if query_result and query_result[0][0] == 0:
@@ -30,33 +27,30 @@ def main():
     else:
         logging.info(f"Stations already fetched and stored.")
 
-    # User input addresses
     start_address = "Jagiełły 31b/10, Siemianowice Śląskie, Polska"
-    destination_address = "valeo chrzanów"
+    destination_address = "stocznia gdańska"
 
-    # Get coordinates
     start_coords = station_manager.get_coordinates(start_address)
     end_coords = station_manager.get_coordinates(destination_address)
 
     if start_coords and end_coords:
-        # Find nearest stations
         num_stations = 3
         start_stations = station_manager.find_nearest_stations(start_coords[0], start_coords[1], num_stations)
         end_stations = station_manager.find_nearest_stations(end_coords[0], end_coords[1], num_stations)
 
-        date = "2025-02-19"
-        time = "3:00"
+        date = "2025-03-30"
+        time = "4:00"
 
-        # Definiowanie wybranych checkboxów
         checkbox_options = [
             'direct_connections_only',
-            # Dodaj inne opcje, które chcesz zaznaczyć
+
+            # 'bicycle transport'
+            # 'facilities for disabled people'
+            # 'facilities for people with children'
         ]
 
-        # Find connections
         connections = route_finder.find_connections(start_stations, end_stations, date, time, checkbox_options=checkbox_options)
 
-        # Output results
         if connections:
             print("Otrzymane połączenia:")
             for connection in connections:
@@ -67,7 +61,6 @@ def main():
     else:
         print("Nie udało się uzyskać współrzędnych dla podanych adresów.")
 
-    # Close resources
     db_manager.close_db()
     logging.info("Route finding process completed.")
 
