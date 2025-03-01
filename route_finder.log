@@ -3763,3 +3763,38 @@ Stacktrace:
 2025-02-26 12:17:01,079 [INFO] Get LATEST chromedriver version for google-chrome
 2025-02-26 12:17:01,196 [INFO] Driver [C:\Users\pkubecki\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
 2025-02-26 12:17:01,202 [INFO] Stations already fetched and stored.
+2025-03-01 15:53:35,878 [INFO] Starting the route finding process.
+2025-03-01 15:53:35,888 [INFO] ====== WebDriver manager ======
+2025-03-01 15:53:40,830 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-01 15:53:40,927 [INFO] About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_win32.zip
+2025-03-01 15:53:40,992 [INFO] Driver downloading response is 200
+2025-03-01 15:53:42,853 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-01 15:53:44,458 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-01 15:53:45,953 [INFO] Driver has been saved in cache [C:\Users\poti2\.wdm\drivers\chromedriver\win64\114.0.5735.90]
+2025-03-01 15:53:45,957 [INFO] Stations already fetched and stored.
+2025-03-01 16:02:58,006 [INFO] Starting the route finding process.
+2025-03-01 16:02:58,007 [INFO] ====== WebDriver manager ======
+2025-03-01 16:02:59,194 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-01 16:02:59,327 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-01 16:02:59,451 [INFO] There is no [win64] chromedriver "133.0.6943.141" for browser google-chrome "133.0.6943" in cache
+2025-03-01 16:02:59,451 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-01 16:02:59,749 [INFO] WebDriver version 133.0.6943.141 selected
+2025-03-01 16:02:59,752 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/win32/chromedriver-win32.zip
+2025-03-01 16:02:59,752 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/win32/chromedriver-win32.zip
+2025-03-01 16:02:59,829 [INFO] Driver downloading response is 200
+2025-03-01 16:03:00,319 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-01 16:03:00,548 [INFO] Driver has been saved in cache [C:\Users\poti2\.wdm\drivers\chromedriver\win64\133.0.6943.141]
+2025-03-01 16:03:00,551 [INFO] Stations already fetched and stored.
+2025-03-01 16:05:29,546 [INFO] Starting the route finding process.
+2025-03-01 16:05:29,567 [INFO] ====== WebDriver manager ======
+2025-03-01 16:05:30,995 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-01 16:05:31,118 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-01 16:05:31,239 [INFO] Driver [C:\Users\poti2\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-01 16:05:31,242 [INFO] Stations already fetched and stored.
+2025-03-01 16:06:37,688 [INFO] Starting the route finding process.
+2025-03-01 16:06:37,690 [INFO] ====== WebDriver manager ======
+2025-03-01 16:06:38,846 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-01 16:06:38,976 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-01 16:06:39,104 [INFO] Driver [C:\Users\poti2\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-01 16:06:39,107 [INFO] Stations already fetched and stored.
+2025-03-01 16:11:42,139 [INFO] Route finding process completed.
