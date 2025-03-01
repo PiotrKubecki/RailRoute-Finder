@@ -1,13 +1,14 @@
 import os
 import time
 from datetime import datetime
-
+from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from webdriver_manager.chrome import ChromeDriverManager
+
 
 class RealRouteFinder:
     def __init__(self):
@@ -21,13 +22,10 @@ class RealRouteFinder:
         return driver_path
 
     def start_driver(self):
-        self.driver = webdriver.Chrome(service=Service(self.driver_path))
-        # Opcjonalnie, możesz odkomentować poniższe linie, by używać trybu headless
-        # from selenium.webdriver.chrome.options import Options
-        # options = Options()
-        # options.add_argument('--headless')
-        # self.driver = webdriver.Chrome(service=Service(self.driver_path), options=options)
-        self.driver.maximize_window()  # Pomaga przy układzie strony
+        options = Options()
+        options.add_argument('--headless')
+        self.driver = webdriver.Chrome(service=Service(self.driver_path), options=options)
+        self.driver.maximize_window()
 
     def stop_driver(self):
         if self.driver:
@@ -43,7 +41,6 @@ class RealRouteFinder:
         element = WebDriverWait(self.driver, timeout).until(
             ec.element_to_be_clickable((by_strategy, locator))
         )
-        # Przewiń element do widoku
         self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", element)
         time.sleep(0.5)
         element.click()
@@ -54,10 +51,6 @@ class RealRouteFinder:
         element.send_keys(text)
 
     def set_date_by_clicking(self, date_string):
-        """
-        Oblicza różnicę dni między bieżącą datą a datą wejściową i klika przycisk
-        zmieniający datę tyle razy, ile to konieczne.
-        """
         try:
             target_date = datetime.strptime(date_string, "%Y-%m-%d").date()
         except Exception as e:
@@ -67,13 +60,12 @@ class RealRouteFinder:
         current_date = datetime.now().date()
         days_difference = (target_date - current_date).days
 
-        button_xpath = '//*[@id="wyszukiwarka-wyniki"]/div[3]/div[1]/div/button[2]'  # Zmień na odpowiedni XPath
+        button_xpath = '//*[@id="wyszukiwarka-wyniki"]/div[3]/div[1]/div/button[2]'
 
         try:
             date_change_button = self.wait_for_element(By.XPATH, button_xpath)
-            # Scroll the button into view
             self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", date_change_button)
-            time.sleep(0.5)  # Give some time to scroll
+            time.sleep(0.5)
 
             if not date_change_button.is_enabled():
                 print("Przycisk zmiany daty nie jest aktywny.")
@@ -114,7 +106,7 @@ class RealRouteFinder:
         try:
             self.click_element(By.XPATH, "//*[@id='yb_anchor_wrapper']/span", timeout=10)
         except Exception:
-            pass  # Jeśli element nie zostanie znaleziony, nic nie rób
+            pass
 
     def find_real_routes(self, start_station, end_station, date_string, time_value, checkbox_options):
         self.start_driver()
@@ -130,7 +122,7 @@ class RealRouteFinder:
         self.enter_text(By.XPATH, "//*[@id='hour']", time_value)
 
         self.anchor_close()
-        self.set_date_by_clicking(date_string)
+        # self.set_date_by_clicking(date_string)
 
         if checkbox_options:
             self.select_checkboxes(checkbox_options)
@@ -169,7 +161,8 @@ class RealRouteFinder:
         all_connections = []
         for start_station in start_stations:
             for end_station in end_stations:
-                routes = self.find_real_routes(start_station[0], end_station[0], date_string, time_value, checkbox_options)
+                routes = self.find_real_routes(start_station[0], end_station[0], date_string, time_value,
+                                               checkbox_options)
                 if routes:
                     for route in routes:
                         connection_info = {

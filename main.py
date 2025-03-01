@@ -12,6 +12,7 @@ logging.basicConfig(
     ]
 )
 
+
 def main():
     logging.info("Starting the route finding process.")
 
@@ -49,13 +50,15 @@ def main():
             # 'facilities for people with children'
         ]
 
-        connections = route_finder.find_connections(start_stations, end_stations, date, time, checkbox_options=checkbox_options)
+        connections = route_finder.find_connections(start_stations, end_stations, date, time,
+                                                    checkbox_options=checkbox_options)
 
         if connections:
             print("Otrzymane połączenia:")
             for connection in connections:
                 print(f"Połączenie z {connection['start_station']} do {connection['end_station']}:")
-                print(f" - Przesiadki: {connection['transfers']}, Odjazd: {connection['departure']}, Czas trwania: {connection['duration']}")
+                print(
+                    f" - Przesiadki: {connection['transfers']}, Odjazd: {connection['departure']}, Czas trwania: {connection['duration']}")
         else:
             print("Nie znaleziono połączeń dla podanych parametrów.")
     else:
@@ -63,6 +66,7 @@ def main():
 
     db_manager.close_db()
     logging.info("Route finding process completed.")
+
 
 if __name__ == "__main__":
     main()
