@@ -8,6 +8,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from webdriver_manager.chrome import ChromeDriverManager
+import logging
 
 
 class RealRouteFinder:
@@ -25,7 +26,6 @@ class RealRouteFinder:
         options = Options()
         options.add_argument('--headless')
         self.driver = webdriver.Chrome(service=Service(self.driver_path), options=options)
-        self.driver.maximize_window()
 
     def stop_driver(self):
         if self.driver:
@@ -53,35 +53,25 @@ class RealRouteFinder:
     def set_date_by_clicking(self, date_string):
         try:
             target_date = datetime.strptime(date_string, "%Y-%m-%d").date()
-        except Exception as e:
-            print("Błąd przy przetwarzaniu daty wejściowej:", e)
-            return
 
-        current_date = datetime.now().date()
-        days_difference = (target_date - current_date).days
+            current_date = datetime.now().date()
+            days_difference = (target_date - current_date).days
 
-        button_xpath = '//*[@id="wyszukiwarka-wyniki"]/div[3]/div[1]/div/button[2]'
+            button_xpath = '//*[@id="wyszukiwarka"]/form/div[8]/div[2]/div[2]/button[2]'
 
-        try:
             date_change_button = self.wait_for_element(By.XPATH, button_xpath)
             self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", date_change_button)
             time.sleep(0.5)
 
-            if not date_change_button.is_enabled():
-                print("Przycisk zmiany daty nie jest aktywny.")
-                return
-            if not date_change_button.is_displayed():
-                print("Przycisk zmiany daty nie jest widoczny.")
+            if not date_change_button.is_enabled() or not date_change_button.is_displayed():
                 return
 
             for _ in range(abs(days_difference)):
-                print(f"Kliknięcie przycisku: {_ + 1} z {abs(days_difference)}")
                 date_change_button.click()
-                time.sleep(0.1)  # Small delay between clicks
+                time.sleep(0.1)
 
-            print(f"Ustawiona data: {target_date}")
         except Exception as e:
-            print(f"Błąd przy klikaniu przycisku: {e}")
+            logging.info(f"Error {e} occured")
 
     def select_checkboxes(self, options_to_select):
         checkbox_xpaths = {
@@ -100,13 +90,13 @@ class RealRouteFinder:
                 else:
                     print(f"Opcja '{option}' nie jest rozpoznawana.")
         except Exception as e:
-            print(f"Błąd podczas zaznaczania checkboxów: {e}")
+            logging.info(f"Error {e} occured")
 
     def anchor_close(self):
         try:
             self.click_element(By.XPATH, "//*[@id='yb_anchor_wrapper']/span", timeout=10)
-        except Exception:
-            pass
+        except Exception as e:
+            logging.info(f"Error {e} occured")
 
     def find_real_routes(self, start_station, end_station, date_string, time_value, checkbox_options):
         self.start_driver()
@@ -114,31 +104,30 @@ class RealRouteFinder:
 
         try:
             self.click_element(By.XPATH, "//*[@id='qc-cmp2-ui']/div[2]/div/button[2]")
-        except Exception:
-            print("Nie udało się znaleźć przycisku akceptacji cookies.")
+            self.enter_text(By.XPATH, "//*[@id='from-station']", start_station)
+            self.enter_text(By.XPATH, "//*[@id='to-station']", end_station)
+            self.enter_text(By.XPATH, "//*[@id='hour']", time_value)
 
-        self.enter_text(By.XPATH, "//*[@id='from-station']", start_station)
-        self.enter_text(By.XPATH, "//*[@id='to-station']", end_station)
-        self.enter_text(By.XPATH, "//*[@id='hour']", time_value)
+            self.anchor_close()
+            self.set_date_by_clicking(date_string)
 
-        self.anchor_close()
-        # self.set_date_by_clicking(date_string)
+            if checkbox_options:
+                self.select_checkboxes(checkbox_options)
+            self.click_element(By.XPATH, "//*[@id='singlebutton']")
 
-        if checkbox_options:
-            self.select_checkboxes(checkbox_options)
-        self.click_element(By.XPATH, "//*[@id='singlebutton']")
+        except Exception as e:
+            logging.info(f"Error {e} occured")
 
         connections = []
         try:
             no_results_xpath = "//div[contains(@class, 'no-result')]"
-            WebDriverWait(self.driver, 5).until(
-                ec.presence_of_element_located((By.XPATH, no_results_xpath))
-            )
-            print("Brak dostępnych połączeń dla podanych parametrów.")
+            WebDriverWait(self.driver, 1).until(
+                ec.presence_of_element_located((By.XPATH, no_results_xpath)))
             self.stop_driver()
             return None
-        except Exception:
-            pass
+
+        except Exception as e:
+            logging.info(f"Error {e} occured")
 
         for i in range(1, 3):
             try:
@@ -152,7 +141,7 @@ class RealRouteFinder:
                     'duration': duration
                 })
             except Exception as e:
-                print(f"Nie udało się pobrać danych dla połączenia {i}: {e}")
+                logging.info(f"Error {e} occured")
 
         self.stop_driver()
         return connections if connections else None
@@ -171,6 +160,5 @@ class RealRouteFinder:
                             **route
                         }
                         all_connections.append(connection_info)
-                else:
-                    print(f"Brak połączenia z {start_station[0]} do {end_station[0]}")
+
         return all_connections

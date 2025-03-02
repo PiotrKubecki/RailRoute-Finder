@@ -3798,3 +3798,70 @@ Stacktrace:
 2025-03-01 16:06:39,104 [INFO] Driver [C:\Users\poti2\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
 2025-03-01 16:06:39,107 [INFO] Stations already fetched and stored.
 2025-03-01 16:11:42,139 [INFO] Route finding process completed.
+2025-03-02 13:30:48,449 [INFO] Starting the route finding process.
+2025-03-02 13:30:48,457 [INFO] ====== WebDriver manager ======
+2025-03-02 13:30:50,631 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-02 13:30:50,777 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-02 13:30:50,910 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-02 13:30:51,209 [INFO] WebDriver version 133.0.6943.141 selected
+2025-03-02 13:30:51,212 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/win32/chromedriver-win32.zip
+2025-03-02 13:30:51,213 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/win32/chromedriver-win32.zip
+2025-03-02 13:30:51,293 [INFO] Driver downloading response is 200
+2025-03-02 13:30:51,795 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-02 13:30:52,036 [INFO] Driver has been saved in cache [C:\Users\poti2\.wdm\drivers\chromedriver\win64\133.0.6943.141]
+2025-03-02 13:30:52,047 [INFO] Stations already fetched and stored.
+2025-03-02 13:31:18,277 [INFO] Starting the route finding process.
+2025-03-02 13:31:18,279 [INFO] ====== WebDriver manager ======
+2025-03-02 13:31:19,584 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-02 13:31:19,712 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-02 13:31:19,839 [INFO] Driver [C:\Users\poti2\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-02 13:31:19,841 [INFO] Stations already fetched and stored.
+2025-03-02 13:32:18,992 [INFO] Starting the route finding process.
+2025-03-02 13:32:18,995 [INFO] ====== WebDriver manager ======
+2025-03-02 13:32:20,236 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-02 13:32:20,368 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-02 13:32:20,500 [INFO] Driver [C:\Users\poti2\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-02 13:32:20,503 [INFO] Stations already fetched and stored.
+2025-03-02 13:33:40,375 [INFO] Starting the route finding process.
+2025-03-02 13:33:40,376 [INFO] ====== WebDriver manager ======
+2025-03-02 13:33:41,537 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-02 13:33:41,668 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-02 13:33:41,798 [INFO] Driver [C:\Users\poti2\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-02 13:33:41,801 [INFO] Stations already fetched and stored.
+2025-03-02 13:34:46,601 [INFO] Starting the route finding process.
+2025-03-02 13:34:46,603 [INFO] ====== WebDriver manager ======
+2025-03-02 13:34:47,750 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-02 13:34:47,880 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-02 13:34:48,004 [INFO] Driver [C:\Users\poti2\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-02 13:34:48,006 [INFO] Stations already fetched and stored.
+2025-03-02 13:35:20,470 [INFO] Starting the route finding process.
+2025-03-02 13:35:20,472 [INFO] ====== WebDriver manager ======
+2025-03-02 13:35:21,681 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-02 13:35:21,812 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-02 13:35:21,941 [INFO] Driver [C:\Users\poti2\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-02 13:35:21,944 [INFO] Stations already fetched and stored.
+2025-03-02 13:37:50,762 [INFO] Starting the route finding process.
+2025-03-02 13:37:50,763 [INFO] ====== WebDriver manager ======
+2025-03-02 13:37:51,924 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-02 13:37:52,051 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-02 13:37:52,175 [INFO] Driver [C:\Users\poti2\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-02 13:37:52,178 [INFO] Stations already fetched and stored.
+2025-03-02 13:40:14,190 [INFO] Starting the route finding process.
+2025-03-02 13:40:14,192 [INFO] ====== WebDriver manager ======
+2025-03-02 13:40:15,351 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-02 13:40:15,475 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-02 13:40:15,599 [INFO] Driver [C:\Users\poti2\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-02 13:40:15,606 [INFO] Stations already fetched and stored.
+2025-03-02 13:40:43,539 [INFO] Starting the route finding process.
+2025-03-02 13:40:43,541 [INFO] ====== WebDriver manager ======
+2025-03-02 13:40:44,660 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-02 13:40:44,784 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-02 13:40:44,905 [INFO] Driver [C:\Users\poti2\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-02 13:40:44,908 [INFO] Stations already fetched and stored.
+2025-03-02 13:43:43,063 [INFO] Starting the route finding process.
+2025-03-02 13:43:43,065 [INFO] ====== WebDriver manager ======
+2025-03-02 13:43:44,376 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-02 13:43:44,503 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-02 13:43:44,621 [INFO] Driver [C:\Users\poti2\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-02 13:43:44,624 [INFO] Stations already fetched and stored.
+2025-03-02 13:48:42,772 [INFO] Route finding process completed.
