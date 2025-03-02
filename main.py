@@ -3,15 +3,6 @@ from ClosestStations import StationManager
 from TrainStationDatabaseCreation import StationDatabaseManager
 from RealRouteFinder import RealRouteFinder
 
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s [%(levelname)s] %(message)s',
-    handlers=[
-        logging.FileHandler("route_finder.log"),
-        logging.StreamHandler()
-    ]
-)
-
 
 def main():
     logging.info("Starting the route finding process.")
@@ -39,7 +30,7 @@ def main():
         start_stations = station_manager.find_nearest_stations(start_coords[0], start_coords[1], num_stations)
         end_stations = station_manager.find_nearest_stations(end_coords[0], end_coords[1], num_stations)
 
-        date = "2025-03-30"
+        date = "2025-03-05"
         time = "4:00"
 
         checkbox_options = [

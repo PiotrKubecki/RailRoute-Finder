@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5b36f54-2b42-4bb6-b31c-298975e43246" name="Changes" comment="Implemented function to pass additional route options">
-      <change beforePath="$PROJECT_DIR$/.idea/RailRoute Finder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RailRoute Finder.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c5b36f54-2b42-4bb6-b31c-298975e43246" name="Changes" comment="Restructuring RealRouteFinder into two separate classes. Moving functions connected with webscraping to new class.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RealRouteFinder.py" beforeDir="false" afterPath="$PROJECT_DIR$/RealRouteFinder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TrainStationDatabaseCreation.py" beforeDir="false" afterPath="$PROJECT_DIR$/TrainStationDatabaseCreation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/route_finder.log" beforeDir="false" afterPath="$PROJECT_DIR$/route_finder.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stations.db-shm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stations.db-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebDriverManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebDriverManager.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +176,31 @@
       <option name="project" value="LOCAL" />
       <updated>1740492120798</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Removing unnecessary comments">
+      <option name="closed" value="true" />
+      <created>1740855509497</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1740855509497</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Now user can choose different departure date. Removing unnecessary print statements used for debugging">
+      <option name="closed" value="true" />
+      <created>1740920554578</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1740920554578</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Restructuring RealRouteFinder into two separate classes. Moving functions connected with webscraping to new class.">
+      <option name="closed" value="true" />
+      <created>1740921999976</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1740921999976</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +234,9 @@
     <MESSAGE value="Upated main.py, implemented optimalizations with finding the closest stations" />
     <MESSAGE value="Updated xpaths and restructured RealRouteFinder.py" />
     <MESSAGE value="Implemented function to pass additional route options" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented function to pass additional route options" />
+    <MESSAGE value="Removing unnecessary comments" />
+    <MESSAGE value="Now user can choose different departure date. Removing unnecessary print statements used for debugging" />
+    <MESSAGE value="Restructuring RealRouteFinder into two separate classes. Moving functions connected with webscraping to new class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Restructuring RealRouteFinder into two separate classes. Moving functions connected with webscraping to new class." />
   </component>
 </project>
