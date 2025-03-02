@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5b36f54-2b42-4bb6-b31c-298975e43246" name="Changes" comment="Now user can choose different departure date. Removing unnecessary print statements used for debugging">
-      <change afterPath="$PROJECT_DIR$/WebDriverManager.py" afterDir="false" />
+    <list default="true" id="c5b36f54-2b42-4bb6-b31c-298975e43246" name="Changes" comment="Restructuring RealRouteFinder into two separate classes. Moving functions connected with webscraping to new class.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RealRouteFinder.py" beforeDir="false" afterPath="$PROJECT_DIR$/RealRouteFinder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebDriverManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebDriverManager.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.ClosestStations.executor": "Run",
-    "Python.RealRouteFinder.executor": "Debug",
+    "Python.RealRouteFinder.executor": "Run",
     "Python.TrainStationDatabaseCreation.executor": "Run",
     "Python.location.executor": "Run",
     "Python.main.executor": "Run",
@@ -192,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740920554578</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Restructuring RealRouteFinder into two separate classes. Moving functions connected with webscraping to new class.">
+      <option name="closed" value="true" />
+      <created>1740921999976</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1740921999976</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,6 +236,7 @@
     <MESSAGE value="Implemented function to pass additional route options" />
     <MESSAGE value="Removing unnecessary comments" />
     <MESSAGE value="Now user can choose different departure date. Removing unnecessary print statements used for debugging" />
-    <option name="LAST_COMMIT_MESSAGE" value="Now user can choose different departure date. Removing unnecessary print statements used for debugging" />
+    <MESSAGE value="Restructuring RealRouteFinder into two separate classes. Moving functions connected with webscraping to new class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Restructuring RealRouteFinder into two separate classes. Moving functions connected with webscraping to new class." />
   </component>
 </project>

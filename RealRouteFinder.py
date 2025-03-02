@@ -58,46 +58,50 @@ class RealRouteFinder:
         self.driver_manager.start_driver()
         self.driver_manager.driver.get("https://rozklad-pkp.pl")
 
-        self.driver_manager.click_element(By.XPATH, "//*[@id='qc-cmp2-ui']/div[2]/div/button[2]")
-        self.driver_manager.enter_text(By.XPATH, "//*[@id='from-station']", start_station)
-        self.driver_manager.enter_text(By.XPATH, "//*[@id='to-station']", end_station)
-        self.driver_manager.enter_text(By.XPATH, "//*[@id='hour']", time_value)
-
-        self.anchor_close()
-        self.set_date_by_clicking(date_string)
-
-        if checkbox_options:
-            self.select_checkboxes(checkbox_options)
-        self.driver_manager.click_element(By.XPATH, "//*[@id='singlebutton']")
-
-        connections = []
-        no_results_xpath = "//div[contains(@class, 'no-result')]"
         try:
-            WebDriverWait(self.driver_manager.driver, 1).until(
-                ec.presence_of_element_located((By.XPATH, no_results_xpath))
-            )
-            self.driver_manager.stop_driver()
-            return None
-        except Exception as e:
-            logging.warning(f"Error {e} occurred")
+            self.driver_manager.click_element(By.XPATH, "//*[@id='qc-cmp2-ui']/div[2]/div/button[2]")
+            self.driver_manager.enter_text(By.XPATH, "//*[@id='from-station']", start_station)
+            self.driver_manager.enter_text(By.XPATH, "//*[@id='to-station']", end_station)
+            self.driver_manager.enter_text(By.XPATH, "//*[@id='hour']", time_value)
 
-        for i in range(1, 3):
+            self.set_date_by_clicking(date_string)
+            self.anchor_close()
+
+            if checkbox_options:
+                self.select_checkboxes(checkbox_options)
+            self.driver_manager.click_element(By.XPATH, "//*[@id='singlebutton']")
+
+            connections = []
+            no_results_xpath = "//*[@id='content']/div[2]/div[1]/div[2]/table/tbody/tr/td/text()"
             try:
-                base_xpath = f"//*[@id='focus_guiVCtrl_connection_detailsOut_select_C0-{i}']"
-                transfer_amount = self.driver_manager.wait_for_element(By.XPATH, base_xpath + "/td[6]").text
-                duration = self.driver_manager.wait_for_element(By.XPATH, base_xpath + "/td[5]").text
-                departure_time = self.driver_manager.wait_for_element(
-                    By.XPATH, base_xpath + "/td[4]/p[1]/span[1]/span[3]").text
-                connections.append({
-                    'transfers': transfer_amount,
-                    'departure': departure_time,
-                    'duration': duration
-                })
-            except Exception as e:
-                logging.warning(f"Error {e} occurred")
+                no_results_element = WebDriverWait(self.driver_manager.driver, 5).until(
+                    ec.presence_of_element_located((By.XPATH, no_results_xpath))
+                )
+                if "niestety" in no_results_element.text:
+                    return None
 
-        self.driver_manager.stop_driver()
-        return connections if connections else None
+            except Exception as e:
+                logging.warning(f"Nie znaleziono elementu no-results lub wystąpił błąd: {e}")
+
+            for i in range(1, 3):
+                try:
+                    base_xpath = f"//*[@id='focus_guiVCtrl_connection_detailsOut_select_C0-{i}']"
+                    transfer_amount = self.driver_manager.wait_for_element(By.XPATH, base_xpath + "/td[6]",
+                                                                           timeout=2).text
+                    duration = self.driver_manager.wait_for_element(By.XPATH, base_xpath + "/td[5]", timeout=2).text
+                    departure_time = self.driver_manager.wait_for_element(
+                        By.XPATH, base_xpath + "/td[4]/p[1]/span[1]/span[3]", timeout=2).text
+                    connections.append({
+                        'transfers': transfer_amount,
+                        'departure': departure_time,
+                        'duration': duration
+                    })
+                except Exception as e:
+                    logging.warning(f"Error occurred while fetching data for connection {i}: {e}")
+
+            return connections if connections else None
+        finally:
+            self.driver_manager.stop_driver()
 
     def find_connections(self, start_stations, end_stations, date_string, time_value, checkbox_options=None):
         all_connections = []

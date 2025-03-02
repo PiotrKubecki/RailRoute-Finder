@@ -7,17 +7,14 @@ from selenium.webdriver.chrome.options import Options
 
 
 class WebDriverManager:
-    def __init__(self, driver_path, headless=True):
+    def __init__(self, driver_path):
         self.driver_path = driver_path
-        self.headless = headless
         self.driver = None
 
     def start_driver(self):
         options = Options()
-        if self.headless:
-            options.add_argument('--headless')
+        # options.add_argument('--headless')
         self.driver = webdriver.Chrome(service=Service(self.driver_path), options=options)
-        self.driver.maximize_window()
 
     def stop_driver(self):
         if self.driver:
@@ -34,7 +31,7 @@ class WebDriverManager:
             ec.element_to_be_clickable((by_strategy, locator))
         )
         self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", element)
-        time.sleep(0.5)
+        time.sleep(0.1)
         element.click()
 
     def enter_text(self, by_strategy, locator, text, timeout=10):
