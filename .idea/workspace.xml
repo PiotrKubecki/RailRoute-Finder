@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5b36f54-2b42-4bb6-b31c-298975e43246" name="Changes" comment="">
+    <list default="true" id="c5b36f54-2b42-4bb6-b31c-298975e43246" name="Changes" comment="Now user can choose different departure date. Removing unnecessary print statements used for debugging">
+      <change afterPath="$PROJECT_DIR$/WebDriverManager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RealRouteFinder.py" beforeDir="false" afterPath="$PROJECT_DIR$/RealRouteFinder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/route_finder.log" beforeDir="false" afterPath="$PROJECT_DIR$/route_finder.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740855509497</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Now user can choose different departure date. Removing unnecessary print statements used for debugging">
+      <option name="closed" value="true" />
+      <created>1740920554578</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1740920554578</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,6 +227,7 @@
     <MESSAGE value="Updated xpaths and restructured RealRouteFinder.py" />
     <MESSAGE value="Implemented function to pass additional route options" />
     <MESSAGE value="Removing unnecessary comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removing unnecessary comments" />
+    <MESSAGE value="Now user can choose different departure date. Removing unnecessary print statements used for debugging" />
+    <option name="LAST_COMMIT_MESSAGE" value="Now user can choose different departure date. Removing unnecessary print statements used for debugging" />
   </component>
 </project>
