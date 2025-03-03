@@ -13,7 +13,7 @@ class WebDriverManager:
 
     def start_driver(self):
         options = Options()
-        # options.add_argument('--headless')
+        options.add_argument('--headless')
         self.driver = webdriver.Chrome(service=Service(self.driver_path), options=options)
 
     def stop_driver(self):

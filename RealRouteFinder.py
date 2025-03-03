@@ -72,7 +72,7 @@ class RealRouteFinder:
             self.driver_manager.click_element(By.XPATH, "//*[@id='singlebutton']")
 
             connections = []
-            no_results_xpath = "//*[@id='content']/div[2]/div[1]/div[2]/table/tbody/tr/td/text()"
+            no_results_xpath = "//*[@id='content']/div[2]/div[1]/div[2]/table"
             try:
                 no_results_element = WebDriverWait(self.driver_manager.driver, 5).until(
                     ec.presence_of_element_located((By.XPATH, no_results_xpath))
