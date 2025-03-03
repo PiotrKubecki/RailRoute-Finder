@@ -51,7 +51,7 @@ class StationManager:
         return earth_radius_km * central_angle
 
     def find_nearest_stations(self, lat, lon, num_stations=5):
-        query = "SELECT name, latitude, longitude FROM stations"
+        query = "SELECT name, latitude, longitude FROM stations ORDER BY name"
         all_stations = self.db_manager.execute_query(query)
         distances = [
             (station[0], station[1], station[2], self.calculate_distance(lat, lon, station[1], station[2]))

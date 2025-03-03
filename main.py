@@ -30,13 +30,13 @@ def main():
         start_stations = station_manager.find_nearest_stations(start_coords[0], start_coords[1], num_stations)
         end_stations = station_manager.find_nearest_stations(end_coords[0], end_coords[1], num_stations)
 
-        date = "2025-03-05"
-        time = "4:00"
+        date = "2025-03-03"
+        time = "15:00"
 
         checkbox_options = [
             'direct_connections_only',
 
-            # 'bicycle transport'
+            'bicycle transport'
             # 'facilities for disabled people'
             # 'facilities for people with children'
         ]
