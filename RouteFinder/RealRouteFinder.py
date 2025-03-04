@@ -52,7 +52,7 @@ class RealRouteFinder:
                     checkbox.click()
 
     def anchor_close(self):
-        self.driver_manager.click_element(By.XPATH, "//*[@id='yb_anchor_wrapper']/span", timeout=10)
+        self.driver_manager.click_element(By.XPATH, "//*[@id='yb_anchor_wrapper']/span", timeout=20)
 
     def find_real_routes(self, start_station, end_station, date_string, time_value, checkbox_options):
         self.driver_manager.start_driver()
