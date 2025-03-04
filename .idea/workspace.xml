@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5b36f54-2b42-4bb6-b31c-298975e43246" name="Changes" comment="Restructuring RealRouteFinder into two separate classes. Moving functions connected with webscraping to new class.">
-      <change beforePath="$PROJECT_DIR$/.idea/RailRoute Finder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RailRoute Finder.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c5b36f54-2b42-4bb6-b31c-298975e43246" name="Changes" comment="A few improvements">
+      <change afterPath="$PROJECT_DIR$/RouteReccomendation/ConnectionData.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClosestStations.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClosestStations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RealRouteFinder.py" beforeDir="false" afterPath="$PROJECT_DIR$/RealRouteFinder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDriverManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebDriverManager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stations.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClosestStations.py" beforeDir="false" afterPath="$PROJECT_DIR$/RouteFinder/ClosestStations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RealRouteFinder.py" beforeDir="false" afterPath="$PROJECT_DIR$/RouteFinder/RealRouteFinder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainStationDatabaseCreation.py" beforeDir="false" afterPath="$PROJECT_DIR$/RouteFinder/TrainStationDatabaseCreation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebDriverManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/RouteFinder/WebDriverManager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/RouteFinder/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +89,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pkubecki\PycharmProjects\RailRoute-Finder" />
+      <recent name="C:\Users\pkubecki\PycharmProjects\RailRoute-Finder\RouteFinder" />
       <recent name="C:\Users\pkubecki\PycharmProjects\RailRoute Finder" />
     </key>
   </component>
@@ -205,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740921999976</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="A few improvements">
+      <option name="closed" value="true" />
+      <created>1741011499181</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1741011499181</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,6 +251,7 @@
     <MESSAGE value="Removing unnecessary comments" />
     <MESSAGE value="Now user can choose different departure date. Removing unnecessary print statements used for debugging" />
     <MESSAGE value="Restructuring RealRouteFinder into two separate classes. Moving functions connected with webscraping to new class." />
-    <option name="LAST_COMMIT_MESSAGE" value="Restructuring RealRouteFinder into two separate classes. Moving functions connected with webscraping to new class." />
+    <MESSAGE value="A few improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="A few improvements" />
   </component>
 </project>

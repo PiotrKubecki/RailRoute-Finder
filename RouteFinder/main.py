@@ -1,8 +1,8 @@
 import logging
-from ClosestStations import StationManager
+from RouteFinder.ClosestStations import StationManager
+from RouteReccomendation.ConnectionData import ConnectionManager
 from TrainStationDatabaseCreation import StationDatabaseManager
-from RealRouteFinder import RealRouteFinder
-
+from RouteFinder.RealRouteFinder import RealRouteFinder
 
 def main():
     logging.info("Starting the route finding process.")
@@ -10,6 +10,7 @@ def main():
     db_manager = StationDatabaseManager()
     station_manager = StationManager(db_manager)
     route_finder = RealRouteFinder()
+    connection_manager = ConnectionManager()
 
     area = "Polska"
     query_result = db_manager.execute_query("SELECT COUNT(*) FROM stations")
@@ -20,7 +21,7 @@ def main():
         logging.info(f"Stations already fetched and stored.")
 
     start_address = "Jagiełły 31b/10, Siemianowice Śląskie, Polska"
-    destination_address = "stocznia gdańska"
+    destination_address = "Doki 1, 80-863 Gdańsk"
 
     start_coords = station_manager.get_coordinates(start_address)
     end_coords = station_manager.get_coordinates(destination_address)
@@ -41,6 +42,7 @@ def main():
             # 'facilities for people with children'
         ]
 
+        route_id = 1
         connections = route_finder.find_connections(start_stations, end_stations, date, time,
                                                     checkbox_options=checkbox_options)
 
@@ -50,11 +52,20 @@ def main():
                 print(f"Połączenie z {connection['start_station']} do {connection['end_station']}:")
                 print(
                     f" - Przesiadki: {connection['transfers']}, Odjazd: {connection['departure']}, Czas trwania: {connection['duration']}")
+                connection_manager.add_connection(
+                    route_id,
+                    connection['start_station'],
+                    connection['end_station'],
+                    connection['transfers'],
+                    connection['departure'],
+                    connection['duration']
+                )
         else:
             print("Nie znaleziono połączeń dla podanych parametrów.")
     else:
         print("Nie udało się uzyskać współrzędnych dla podanych adresów.")
 
+    connection_manager.save_to_csv('connections.csv')
     db_manager.close_db()
     logging.info("Route finding process completed.")
 
