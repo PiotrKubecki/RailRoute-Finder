@@ -1,4 +1,6 @@
 import logging
+from datetime import datetime
+
 from RouteFinder.ClosestStations import StationManager
 from RouteReccomendation.ConnectionData import ConnectionManager
 from TrainStationDatabaseCreation import StationDatabaseManager
@@ -33,6 +35,7 @@ def main():
 
         date = "2025-03-03"
         time = "15:00"
+        user_departure_time = datetime.strptime(f"{date} {time}", "%Y-%m-%d %H:%M")
 
         checkbox_options = [
             'direct_connections_only',
@@ -49,6 +52,11 @@ def main():
         if connections:
             print("Otrzymane połączenia:")
             for connection in connections:
+                train_departure_time = datetime.strptime(connection['departure'], "%H:%M")
+                waiting_time = (train_departure_time - user_departure_time).total_seconds() / 60
+                if waiting_time < 0:
+                    waiting_time += 24 * 60
+
                 print(f"Połączenie z {connection['start_station']} do {connection['end_station']}:")
                 print(
                     f" - Przesiadki: {connection['transfers']}, Odjazd: {connection['departure']}, Czas trwania: {connection['duration']}")
@@ -57,7 +65,7 @@ def main():
                     connection['start_station'],
                     connection['end_station'],
                     connection['transfers'],
-                    connection['departure'],
+                    waiting_time,
                     connection['duration']
                 )
         else:

@@ -1,7 +1,7 @@
 route_id,from_city,to_city,transfers,departure_time,duration
-1,Katowice,Gdañsk G³ówny,0,14:39,5:24
-1,Katowice,Gdañsk G³ówny,0,17:44,5:19
-1,Katowice,Sopot,0,14:39,5:40
-1,Katowice,Sopot,0,17:44,5:35
-1,Katowice,Pruszcz Gdañski,0,05:21,7:09
-1,Katowice,Pruszcz Gdañski,0,13:02,7:27
+1,Katowice,Gdañsk G³ówny,0,-65831053.0,5:25
+1,Katowice,Gdañsk G³ówny,0,-65830863.0,5:15
+1,Katowice,Sopot,0,-65831053.0,5:40
+1,Katowice,Sopot,0,-65830863.0,5:30
+1,Katowice,Pruszcz Gdañski,0,-65831622.0,7:11
+1,Katowice,Pruszcz Gdañski,0,-65831148.0,7:15
