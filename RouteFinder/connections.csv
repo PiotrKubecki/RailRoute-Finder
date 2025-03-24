@@ -1,7 +1,15 @@
-route_id,from_city,to_city,transfers,departure_time,duration
-1,Katowice,Gdañsk G³ówny,0,14:39,5:24
-1,Katowice,Gdañsk G³ówny,0,17:44,5:19
-1,Katowice,Sopot,0,14:39,5:40
-1,Katowice,Sopot,0,17:44,5:35
-1,Katowice,Pruszcz Gdañski,0,05:21,7:09
-1,Katowice,Pruszcz Gdañski,0,13:02,7:27
+route_id,from_city,to_city,transfers,departure_time,duration,distance_from_start,distance_to_destination
+2,Chorzï¿½w Stary,Trzebinia,2,118.0,1:31,3.2542792950133603,1.6659616511434017
+2,Chorzï¿½w Stary,Trzebinia,2,168.0,2:38,3.2542792950133603,1.6659616511434017
+2,Chorzï¿½w Stary,Chrzanï¿½w,3,118.0,1:46,3.2542792950133603,2.966037083677547
+2,Chorzï¿½w Stary,Libiï¿½ï¿½,3,118.0,1:51,3.2542792950133603,8.566834510835701
+2,Katowice,Trzebinia,0,60.0,0:38,5.362191007549761,1.6659616511434017
+2,Katowice,Trzebinia,0,98.0,0:33,5.362191007549761,1.6659616511434017
+2,Katowice,Chrzanï¿½w,2,13.0,1:45,5.362191007549761,2.966037083677547
+2,Katowice,Chrzanï¿½w,1,98.0,0:54,5.362191007549761,2.966037083677547
+2,Katowice,Libiï¿½ï¿½,2,13.0,1:40,5.362191007549761,8.566834510835701
+2,Katowice,Libiï¿½ï¿½,2,60.0,1:42,5.362191007549761,8.566834510835701
+2,Bytom,Trzebinia,1,10.0,2:01,7.304315618480691,1.6659616511434017
+2,Bytom,Trzebinia,2,111.0,1:38,7.304315618480691,1.6659616511434017
+2,Bytom,Chrzanï¿½w,2,10.0,2:22,7.304315618480691,2.966037083677547
+2,Bytom,Libiï¿½ï¿½,2,10.0,2:27,7.304315618480691,8.566834510835701
