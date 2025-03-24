@@ -58,6 +58,7 @@ class StationManager:
             for station in all_stations
         ]
 
+
         # Sortowanie stacji według odległości
         distances.sort(key=lambda x: x[3])
 

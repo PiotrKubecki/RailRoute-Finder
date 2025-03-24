@@ -23,7 +23,7 @@ def main():
         logging.info(f"Stations already fetched and stored.")
 
     start_address = "Jagiełły 31b/10, Siemianowice Śląskie, Polska"
-    destination_address = "Doki 1, 80-863 Gdańsk"
+    destination_address = "valeo chrzanów"
 
     start_coords = station_manager.get_coordinates(start_address)
     end_coords = station_manager.get_coordinates(destination_address)
@@ -33,40 +33,60 @@ def main():
         start_stations = station_manager.find_nearest_stations(start_coords[0], start_coords[1], num_stations)
         end_stations = station_manager.find_nearest_stations(end_coords[0], end_coords[1], num_stations)
 
-        date = "2025-03-03"
+        date = "2025-03-12"
         time = "15:00"
         user_departure_time = datetime.strptime(f"{date} {time}", "%Y-%m-%d %H:%M")
 
         checkbox_options = [
-            'direct_connections_only',
+            # 'direct_connections_only',
 
-            'bicycle transport'
+            # 'bicycle transport'
             # 'facilities for disabled people'
             # 'facilities for people with children'
         ]
+        print(start_stations)
+        print(end_stations)
+        route_id = 2
+        connections = route_finder.find_connections(start_stations, end_stations, date, time, checkbox_options=checkbox_options)
 
-        route_id = 1
-        connections = route_finder.find_connections(start_stations, end_stations, date, time,
-                                                    checkbox_options=checkbox_options)
+        distances_from_start = {entry[0]: entry[3] for entry in start_stations}
+        distances_to_destination = {entry[0]: entry[3] for entry in end_stations}
+
+        print("Connections found:", connections)
 
         if connections:
             print("Otrzymane połączenia:")
             for connection in connections:
-                train_departure_time = datetime.strptime(connection['departure'], "%H:%M")
+                # Parse departure time of train
+                try:
+                    train_departure_time = datetime.strptime(connection['departure'], "%H:%M")
+                except ValueError as e:
+                    logging.warning(f"Invalid departure time format for connection: {connection}. Error: {e}")
+                    continue
+
+                # Match departure time with user's input
+                train_departure_time = user_departure_time.replace(hour=train_departure_time.hour, minute=train_departure_time.minute)
+
+                if train_departure_time < user_departure_time:
+                    continue  # Skip connections before user departure time
+
+                # Calculate waiting time
                 waiting_time = (train_departure_time - user_departure_time).total_seconds() / 60
-                if waiting_time < 0:
-                    waiting_time += 24 * 60
 
                 print(f"Połączenie z {connection['start_station']} do {connection['end_station']}:")
                 print(
-                    f" - Przesiadki: {connection['transfers']}, Odjazd: {connection['departure']}, Czas trwania: {connection['duration']}")
+                    f" - Przesiadki: {connection['transfers']}, Czas oczekiwania: {waiting_time:.2f} minut, Czas trwania: {connection['duration']}")
+
+                # Add connection to manager with default distance values
                 connection_manager.add_connection(
                     route_id,
                     connection['start_station'],
                     connection['end_station'],
                     connection['transfers'],
                     waiting_time,
-                    connection['duration']
+                    connection['duration'],
+                    distances_from_start[connection['start_station']],  # Default distance from start
+                    distances_to_destination[connection['end_station']]   # Default distance to destination
                 )
         else:
             print("Nie znaleziono połączeń dla podanych parametrów.")

@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5b36f54-2b42-4bb6-b31c-298975e43246" name="Changes" comment="adding class responsible for collecting data that will be used for best route prediction">
+    <list default="true" id="c5b36f54-2b42-4bb6-b31c-298975e43246" name="Changes" comment="Adding function to gather time that takes to departure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RouteFinder/ClosestStations.py" beforeDir="false" afterPath="$PROJECT_DIR$/RouteFinder/ClosestStations.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RouteFinder/connections.csv" beforeDir="false" afterPath="$PROJECT_DIR$/RouteFinder/connections.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RouteFinder/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/RouteFinder/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RouteReccomendation/ConnectionData.py" beforeDir="false" afterPath="$PROJECT_DIR$/RouteReccomendation/ConnectionData.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741098194331</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Adding function to gather time that takes to departure">
+      <option name="closed" value="true" />
+      <created>1741357732435</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1741357732435</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,6 +296,7 @@
     <MESSAGE value="Restructuring RealRouteFinder into two separate classes. Moving functions connected with webscraping to new class." />
     <MESSAGE value="A few improvements" />
     <MESSAGE value="adding class responsible for collecting data that will be used for best route prediction" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding class responsible for collecting data that will be used for best route prediction" />
+    <MESSAGE value="Adding function to gather time that takes to departure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding function to gather time that takes to departure" />
   </component>
 </project>
