@@ -26,7 +26,7 @@ class WebDriverManager:
             ec.presence_of_element_located((by_strategy, locator))
         )
 
-    def click_element(self, by_strategy, locator, timeout=10):
+    def click_element(self, by_strategy, locator, timeout=20):
         element = WebDriverWait(self.driver, timeout).until(
             ec.element_to_be_clickable((by_strategy, locator))
         )

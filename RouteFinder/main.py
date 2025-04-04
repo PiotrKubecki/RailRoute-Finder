@@ -22,8 +22,8 @@ def main():
     else:
         logging.info(f"Stations already fetched and stored.")
 
-    start_address = "Jagiełły 31b/10, Siemianowice Śląskie, Polska"
-    destination_address = "valeo chrzanów"
+    start_address = "Strumykowa 2, 67-200 Głogów"
+    destination_address = "Jana Długosza 59-75, 51-162 Wrocław"
 
     start_coords = station_manager.get_coordinates(start_address)
     end_coords = station_manager.get_coordinates(destination_address)
@@ -33,7 +33,7 @@ def main():
         start_stations = station_manager.find_nearest_stations(start_coords[0], start_coords[1], num_stations)
         end_stations = station_manager.find_nearest_stations(end_coords[0], end_coords[1], num_stations)
 
-        date = "2025-03-12"
+        date = "2025-04-2"
         time = "15:00"
         user_departure_time = datetime.strptime(f"{date} {time}", "%Y-%m-%d %H:%M")
 
@@ -44,20 +44,17 @@ def main():
             # 'facilities for disabled people'
             # 'facilities for people with children'
         ]
-        print(start_stations)
-        print(end_stations)
-        route_id = 2
+
+        route_id = 16
         connections = route_finder.find_connections(start_stations, end_stations, date, time, checkbox_options=checkbox_options)
 
         distances_from_start = {entry[0]: entry[3] for entry in start_stations}
         distances_to_destination = {entry[0]: entry[3] for entry in end_stations}
 
-        print("Connections found:", connections)
-
         if connections:
-            print("Otrzymane połączenia:")
+            print("Connections found:")
             for connection in connections:
-                # Parse departure time of train
+
                 try:
                     train_departure_time = datetime.strptime(connection['departure'], "%H:%M")
                 except ValueError as e:
@@ -73,27 +70,31 @@ def main():
                 # Calculate waiting time
                 waiting_time = (train_departure_time - user_departure_time).total_seconds() / 60
 
-                print(f"Połączenie z {connection['start_station']} do {connection['end_station']}:")
+                print(f"Connection from {connection['start_station']} to {connection['end_station']}:")
                 print(
-                    f" - Przesiadki: {connection['transfers']}, Czas oczekiwania: {waiting_time:.2f} minut, Czas trwania: {connection['duration']}")
+                    f" - Transfers: {connection['transfers']}, Waiting time: {waiting_time:.2f} minutes, Duration: {connection['duration']}")
 
                 # Add connection to manager with default distance values
-                connection_manager.add_connection(
-                    route_id,
-                    connection['start_station'],
-                    connection['end_station'],
-                    connection['transfers'],
-                    waiting_time,
-                    connection['duration'],
-                    distances_from_start[connection['start_station']],  # Default distance from start
-                    distances_to_destination[connection['end_station']]   # Default distance to destination
-                )
+                if connection:
+                    connection_manager.add_connection(
+                        route_id,
+                        connection['start_station'],
+                        connection['end_station'],
+                        connection['transfers'],
+                        waiting_time,
+                        connection['duration'],
+                        distances_from_start[connection['start_station']],  # Default distance from start
+                        distances_to_destination[connection['end_station']]   # Default distance to destination
+                    )
         else:
-            print("Nie znaleziono połączeń dla podanych parametrów.")
-    else:
-        print("Nie udało się uzyskać współrzędnych dla podanych adresów.")
+            print("No connections found for the given parameters.")
 
-    connection_manager.save_to_csv('connections.csv')
+        connection_manager.save_to_csv('connections.csv')
+
+    else:
+        print("Coordinates for the specified addresses could not be obtained.")
+
+
     db_manager.close_db()
     logging.info("Route finding process completed.")
 
