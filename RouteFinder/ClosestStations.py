@@ -38,7 +38,7 @@ class StationManager:
         location = geolocator.geocode(address)
         if location:
             return location.latitude, location.longitude
-        print("Nie udało się uzyskać współrzędnych dla podanego adresu.")
+        print(f"Coordinates could not be obtained for the given address: {address}.")
         return None
 
     def calculate_distance(self, lat1, lon1, lat2, lon2):
@@ -58,11 +58,9 @@ class StationManager:
             for station in all_stations
         ]
 
-
-        # Sortowanie stacji według odległości
         distances.sort(key=lambda x: x[3])
 
-        # Filtracja najbliższych stacji z różnych miast
+        # Ensuring that each nearest station is from a different city
         nearest_stations = {}
         for station in distances:
             city = station[0].split()[0]

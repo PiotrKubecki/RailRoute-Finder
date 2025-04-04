@@ -81,7 +81,7 @@ class RealRouteFinder:
                     return None
 
             except Exception as e:
-                logging.warning(f"Nie znaleziono elementu no-results lub wystąpił błąd: {e}")
+                logging.warning(f"Element was not found")
 
             for i in range(1, 3):
                 try:
